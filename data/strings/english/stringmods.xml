@@ -1,0 +1,25 @@
+<stringmods>
+  <stringtable>
+    <language name="English">
+      <string _locid="500000">Cortez</string>
+      <string _locid="500001">[Insert Cortez description here]</string>
+      <string _locid="500002">Madrid</string>
+      <string _locid="500003">Spanish (Cortez)</string>
+
+      <string _locid="500004">Enjolras</string>
+      <string _locid="500005">[Insert Enjolras description here]</string>
+      <string _locid="500006">Paris</string>
+      <string _locid="500007">French (Enjolras)</string>
+
+      <string _locid="500008">King George</string>
+      <string _locid="500009">[Insert King George description here]</string>
+      <string _locid="500010">London</string>
+      <string _locid="500011">British (King George)</string>
+
+      <string _locid="500012">Peter the Great</string>
+      <string _locid="500013">[Insert Peter the Great description here]</string>
+      <string _locid="500014">St. Petersburg</string>
+      <string _locid="500015">Russians (Peter the Great)</string>
+    </language>
+  </stringtable>
+</stringmods>

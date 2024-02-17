@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>500000</nameID>
+   <tooltipID>500001</tooltipID>
+   <forcedciv>spanish2</forcedciv>
+   <rushboom>-1</rushboom>
+   <icon>resources/images/icons/singleplayer/cpai_avatar_spanish.png</icon>
+   <chatset>isabella</chatset>
+   <playerNames>
+      <nameID>500000<civ>spanish2</civ></nameID> 
+	</playerNames>
+</AI>
