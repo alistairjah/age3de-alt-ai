@@ -1,0 +1,19 @@
+<techtreemods>
+<!--
+    ### Notes and numbering convention ###
+
+    Organize each group of techs by civ. 
+    Prefix every tech name with "alt" to avoid duplicate names
+        ex: altAge0Spanish2
+
+    The last techtree entry in techtreey is 11008 as of Feb 16, 2024
+    
+    Age of Pirates uses 40000 - 59999
+    Age of the World uses one-two additional digits. ex: 2000000, 800559
+
+    This mod will stay between 60000 - 69999 
+    Each civ variant will have its own group of indexes to use, starting sequentially in the hundreds place
+    Spanish2: 60000 - 60099
+    Next Civ: 60100 - 60199
+-->
+</techtreemods>

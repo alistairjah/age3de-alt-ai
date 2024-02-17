@@ -1,0 +1,27 @@
+<protomods>
+<!--
+    ### Notes and numbering convention ###
+
+    Organize each group of units by civ. 
+    Prefix every unit name with "alt" to avoid duplicate names
+        ex: altAge0Spanish2
+
+    The last protounit entry in protoy as of Feb 16, 2024:
+        unit id: 2732
+           dbid: 3307
+
+    Age of Pirates uses:
+        unit id: 20000 +
+           dbid: 20000 +
+    Age of the World uses:
+        unit id:  6000 +
+           dbid: 10000 +
+
+    Each civ will start sequentially in the hundreds place
+    This mod will stay between 50000 - 59999 
+    Use the same ID for unit id and dbid
+    Each civ variant will have its own group of indexes to use
+    Spanish2: 50000 - 50099
+    Next Civ: 50100 - 50199
+-->
+</protomods>
