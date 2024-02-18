@@ -16,4 +16,424 @@
     Spanish2: 60000 - 60099
     Next Civ: 60100 - 60199
 -->
+
+<!-- Spanish2: Cortez -->
+  <tech name="altAge0Spanish2" type="Normal">
+    <dbid>60000</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Explorer</target>
+      </effect>
+      <!--<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Hussar</target>
+      </effect>-->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WarDog</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="TechStatus" status="active">AAStandardStartingTechs</effect>
+      <effect type="TechStatus" status="active">DEEuropeanStandardTechs</effect>
+      <!--<effect type="TechStatus" status="obtainable">GuardHussars</effect>-->
+      <!--<effect type="TechStatus" status="obtainable">VeteranHussars</effect>-->
+      <effect type="TechStatus" status="obtainable">ChurchQuatrefage</effect>
+      <effect type="TechStatus" status="obtainable">ChurchCorsolet</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Sheep</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HouseMed</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">altVeteranArquebus</effect>
+      <!--<effect type="TechStatus" status="obtainable">GuardMusketeers</effect>-->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">altArquebusier</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Mill</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ImperialEspada</effect>
+      <effect type="TechStatus" status="obtainable">VeteranRodeleros</effect>
+      <!--<effect type="TechStatus" status="obtainable">ImperialMusketeers</effect>-->
+      <effect type="TechStatus" status="obtainable">ImperialTercio</effect>
+      <effect type="TechStatus" status="obtainable">RGTercio</effect>
+      <effect type="TechStatus" status="obtainable">VeteranPikemen</effect>
+      <effect type="TechStatus" status="obtainable">VeteranCrossbowmen</effect>
+      <effect type="TechStatus" status="obtainable">altVeteranLancero</effect>
+      <effect type="TechStatus" status="obtainable">altGuardLancero</effect>
+      <effect type="TechStatus" status="obtainable">altImperialLancero</effect>
+      <effect type="TechStatus" status="obtainable">GuardCrossbowmen</effect>
+      <effect type="TechStatus" status="obtainable">ImperialCrossbowmen</effect>
+      <!--<effect type="TechStatus" status="obtainable">ImperialGarrochistas</effect>-->
+      <!--<effect type="TechStatus" status="obtainable">ImperialHussars</effect>-->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">altGuardConquistador</effect>
+      <effect type="TechStatus" status="obtainable">altImperialConquistador</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Falconet</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ChurchWildGeeseSpanish</effect>
+      <effect type="TechStatus" status="obtainable">ChurchWalloonGuards</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Plantation</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TradingPost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Market</target>
+      </effect>
+      <effect type="TechStatus" status="active">XPTrickle</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Arsenal</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Crossbowman</target>
+      </effect>
+      <!--<effect type="TechStatus" status="obtainable">ImperialSkirmishers</effect>-->
+      <!--<effect type="TechStatus" status="obtainable">GuardSkirmishers</effect>-->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">CWallGate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Church</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">LivestockPen</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Mortar</target>
+      </effect>
+      <!--<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>-->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FieldHospital</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight2</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight5</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallConnector</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">RGEspadachins</effect>
+      <!--<effect type="TechStatus" status="obtainable">RGGarrochista</effect>-->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Missionary</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Frigate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Galleon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">altLancero</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">altConquistador</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Rodelero</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Caravel</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Monitor</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">Bayonet</effect>
+      <effect type="TechStatus" status="active">Levy</effect>
+      <effect type="Data" action="SpawnCannon" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Factory</target>
+      </effect>
+      <effect type="Data" action="SpawnCannon" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deHanoverFactory</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ImperialCannon</effect>
+      <effect type="TechStatus" status="obtainable">ImperialFieldGun</effect>
+      <effect type="TechStatus" status="obtainable">FieldGun</effect>
+      <effect type="TechStatus" status="obtainable">altVeteranConquistadorShadow</effect>
+      <!--<effect type="TechStatus" status="obtainable">VeteranSkirmishersShadow</effect>-->
+      <effect type="TechStatus" status="obtainable">ImperialManOWar</effect>
+      <effect type="TechStatus" status="obtainable">ImperialMonitors</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deTavern</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionChile</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionMexico</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionPeru</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionArgentina</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionColombia</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpPetard</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ImperialHorseArtillery</effect>
+      <effect type="TechStatus" status="obtainable">HeavyHorseArtillery</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpHorseArtillery</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpSpy</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ShipHowitzers</effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">deHacienda</target>
+      </effect>
+      <effect type="Data2" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Explorer" skinid="0" relativity="Absolute">
+        <target type="ProtoUnit">deIconFemaleExplorerSPHeroicVillager</target>
+      </effect>
+      <effect type="Data2" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Explorer" skinid="1" relativity="Absolute">
+        <target type="ProtoUnit">deIconFemaleExplorerSPFlamencoDancer</target>
+      </effect>
+      <effect type="Data2" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Explorer" skinid="2" relativity="Absolute">
+        <target type="ProtoUnit">deIconExplorerSPDelgado</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">PoliticianGovernor</effect>
+      <effect type="TechStatus" status="obtainable">UnlockPoliticianNaturalistSpanish</effect>
+      <effect type="TechStatus" status="obtainable">UnlockPoliticianPhilosopherPrinceSpanish</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianLogisticianSpanish</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianInventorColonial</effect>
+      <effect type="TechStatus" status="obtainable">UnlockPoliticianAdmiralSpanish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianAdventurerSpanish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianSergeantSpanish</effect>
+      <effect type="TechStatus" status="obtainable">UnlockPoliticianScoutSpanish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianBishopFortress</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianCavalierSpanish</effect>
+      <effect type="TechStatus" status="obtainable">UnlockPoliticianWarMinisterSpanish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianMusketeerSpanish</effect>
+      <effect type="TechStatus" status="obtainable">UnlockPoliticianEngineerSpanish</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianPapalGuardSpanish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianPresidente</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianGeneral</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianMercContractor</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianInventor</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianKnight</effect>
+    </effects>
+  </tech>
+  <tech name="altVeteranArquebus" type="Normal">
+    <dbid>60001</dbid>
+    <displaynameid>800008</displaynameid>
+    <cost resourcetype="Wood">300.0000</cost>
+    <cost resourcetype="Gold">300.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
+    <rollovertextid>800009</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altArquebusier</target>
+      </effect>
+      <effect type="SetName" proto="altArquebusier" culture="none" newname="800008">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="altArquebusier" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altArquebusier</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altVeteranLancero" type="Normal">
+    <dbid>60002</dbid>
+    <displaynameid>800014</displaynameid>
+    <cost resourcetype="Wood">200.0000</cost>
+    <cost resourcetype="Gold">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_cavalry\veteran_cavalry.png</icon>
+    <rollovertextid>800017</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altLancero</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altLancero</target>
+      </effect>
+      <effect type="SetName" proto="altLancero" culture="none" newname="800014">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="altLancero" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altGuardLancero" type="Normal">
+    <dbid>60003</dbid>
+    <displaynameid>800015</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_cavalry\guard_cavalry.png</icon>
+    <rollovertextid>800017</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">altVeteranLancero</techstatus>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altLancero</target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altLancero</target>
+      </effect>
+      <effect type="SetName" proto="altLancero" culture="none" newname="800015">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="altLancero" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altImperialLancero" type="Normal">
+    <dbid>60004</dbid>
+    <displaynameid>800016</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_cavalry\imperial_cavalry.png</icon>
+    <rollovertextid>800018</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">altGuardLancero</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altLancero</target>
+      </effect>
+      <effect type="SetName" proto="altLancero" culture="none" newname="800016">
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altLancero</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altVeteranConquistadorShadow" type="Normal">
+    <dbid>60005</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altConquistador</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altConquistador</target>
+      </effect>
+      <effect type="SetName" proto="altConquistador" culture="none" newname="800023">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="altConquistador" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altGuardConquistador" type="Normal">
+    <dbid>60006</dbid>
+    <displaynameid>800024</displaynameid>
+    <cost resourcetype="Wood">600.0000</cost>
+    <cost resourcetype="Gold">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_cavalry\guard_cavalry.png</icon>
+    <rollovertextid>800017</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altConquistador</target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altConquistador</target>
+      </effect>
+      <effect type="SetName" proto="altConquistador" culture="none" newname="800024">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="altConquistador" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altImperialConquistador" type="Normal">
+    <dbid>60007</dbid>
+    <displaynameid>800025</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_cavalry\imperial_cavalry.png</icon>
+    <rollovertextid>800018</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">altGuardConquistador</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altConquistador</target>
+      </effect>
+      <effect type="SetName" proto="altConquistador" culture="none" newname="800025">
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altConquistador</target>
+      </effect>
+    </effects>
+  </tech>
 </techtreemods>

@@ -1,4 +1,23 @@
 <stringmods>
+<!--
+    ### Notes and numbering convention ###
+
+    Organize each group of techs by civ. 
+
+    The last string entry in stringtable is 220057 as of Feb 16, 2024
+    
+    Age of Pirates uses 300001 - 499999
+    Age of the World uses 599289 - 603785
+
+    This mod will stay between 800000 - 899999
+    Each civ variant will have its own group of indexes to use, starting sequentially in the thousands place
+      Note: this differs from techs and units, that sequence in the hundreds place
+    Spanish2:   800000 - 800999
+    French2:    801000 - 801999
+    British2:   802000 - 802999
+    Russians2:  803000 - 803999
+-->
+
   <stringtable>
     <language name="English">
       <string _locid="500000">Cortez</string>
@@ -20,6 +39,38 @@
       <string _locid="500013">[Insert Peter the Great description here]</string>
       <string _locid="500014">St. Petersburg</string>
       <string _locid="500015">Russians (Peter the Great)</string>
+
+      <!-- Spanish2: Cortez -->
+      <string _locid="800000">Cortez</string>
+      <string _locid="800001">[Insert Cortez description here]</string>
+      <string _locid="800002">Madrid</string>
+      <string _locid="800003">Spanish (Cortez)</string>
+      <string _locid="800004">Arquebusier</string>
+      <string _locid="800005">alt Arquebusier</string>
+      <string _locid="800006">Early ranged infantry equipped with armor and a short ranged arquebus.</string>
+      <string _locid="800007">Early ranged heavy infantry.</string>
+      <string _locid="800008">Veteran Arquebusier</string>
+      <string _locid="800009">Arquebusier attack and hitpoints increased.</string>
+      <string _locid="800010">Lancero</string>
+      <string _locid="800011">alt Lancero</string>
+      <string _locid="800012">Early heavy cavalry armed with a lance.</string>
+      <string _locid="800013">Heavy cavalry good against infantry.</string>
+      <string _locid="800014">Veteran Lancero</string>
+      <string _locid="800015">Guard Lancero</string>
+      <string _locid="800016">Imperial Lancero</string>
+      <string _locid="800017">Lancero attack and hitpoints increased.</string>
+      <string _locid="800018">Imperial upgrade for Lanceros.</string>
+      <string _locid="800019">Conquistador</string>
+      <string _locid="800020">alt Conquistador</string>
+      <string _locid="800021">Spanish ranged cavalry, good against cavalry.</string>
+      <string _locid="800022">Ranged cavalry, good against cavalry.</string>
+      <string _locid="800023">Veteran Conquistador</string>
+      <string _locid="800024">Guard Conquistador</string>
+      <string _locid="800025">Imperial Conquistador</string>
+      <string _locid="800026">Conquistador attack and hitpoints increased.</string>
+      <string _locid="800027">Imperial upgrade for Conquistadors.</string>
+
+
     </language>
   </stringtable>
 </stringmods>

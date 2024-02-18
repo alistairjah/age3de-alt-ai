@@ -1,0 +1,24 @@
+<animfile>
+  <component>lance
+    <logic type="Tech">
+      <none>
+        <assetreference type="GrannyModel">
+          <file>units\infantry\pikeman\pikeman_2age_pike</file>
+        </assetreference>
+      </none>
+      <altveteranlancero>
+        <assetreference type="GrannyModel">
+          <file>units\infantry\pikeman\pikeman_3age_pike</file>
+        </assetreference>
+      </altveteranlancero>
+      <altguardlancero>
+        <assetreference type="GrannyModel">
+          <file>units\infantry\pikeman\pikeman_4age_pike</file>
+        </assetreference>
+      </altguardlancero>
+    </logic>
+  </component>
+  <anim>Idle
+    <component>lance</component>
+  </anim>
+</animfile>

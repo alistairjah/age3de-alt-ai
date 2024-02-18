@@ -1,0 +1,19 @@
+<animfile>
+  <component>hats
+    <logic type="Tech">
+      <none>
+        <assetreference type="GrannyModel">
+          <file>units\infantry_ranged\musketeer\musketeer_2age_hat</file>
+        </assetreference>
+      </none>
+      <altveteranarquebus>
+        <assetreference type="GrannyModel">
+          <file>units\infantry\pikeman\pikeman_2age_hat</file>
+        </assetreference>
+      </altveteranarquebus>
+    </logic>
+  </component>
+  <anim>Idle
+    <component>hats</component>
+  </anim>
+</animfile>
