@@ -26,6 +26,16 @@
 -->
 
 <!-- Shared Buildings -->
+    <unit id="294" name="TownCenter">
+      <tech row="0" page="1" column="0">PoliticianScoutSpanish2</tech>
+      <tech row="0" page="1" column="0">PoliticianMusketeerSpanish2</tech>
+      <tech row="0" page="1" column="0">PoliticianCavalierSpanish2</tech>
+    </unit>
+    <unit id="2356" name="deSPCCommandPost">
+      <tech row="0" page="1" column="0">PoliticianScoutSpanish2</tech>
+      <tech row="0" page="1" column="0">PoliticianMusketeerSpanish2</tech>
+      <tech row="0" page="1" column="0">PoliticianCavalierSpanish2</tech>
+    </unit>
     <unit id="296" name="Barracks">
         <train row="0" page="0" column="4">altArquebusier</train>
         <tech row="0" page="1" column="4">altVeteranArquebus</tech>
@@ -40,7 +50,7 @@
         <tech row="0" page="1" column="2">altImperialConquistador</tech>
     </unit>
 
-<!-- Spanish2: Cortez -->
+<!-- Spanish2: Cortes -->
     <unit id="50000" name="altArquebusier">
     <dbid>50000</dbid>
     <displaynameid>800004</displaynameid>

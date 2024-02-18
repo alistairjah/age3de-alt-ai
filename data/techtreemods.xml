@@ -16,6 +16,56 @@
     Spanish2: 60000 - 60099
     Next Civ: 60100 - 60199
 -->
+<!-- Shared Techs -->
+  <!-- Age up related techs -->
+<tech name="DERemoveAge2" type="Normal">
+</tech>
+<tech name="DERemoveAge3" type="Normal">
+  <effect type="CommandRemove" tech="PoliticianScoutSpanish2">
+    <target type="ProtoUnit">TownCenter</target>
+  </effect>
+</tech>
+<tech name="DERemoveAge4" type="Normal">
+  <effect type="CommandRemove" tech="PoliticianMusketeerSpanish2">
+    <target type="ProtoUnit">TownCenter</target>
+  </effect>
+  <effect type="CommandRemove" tech="PoliticianCavalierSpanish2">
+    <target type="ProtoUnit">TownCenter</target>
+  </effect>
+</tech>  
+<tech name="DERemoveAge5" type="Normal">
+</tech>
+<tech name="DERestoreAge2" type="Normal">
+</tech>
+<tech name="DERestoreAge3" type="Normal">
+  <effect type="CommandAdd" tech="PoliticianScoutSpanish2" page="1" column="0">
+    <target type="ProtoUnit">TownCenter</target>
+  </effect>
+</tech>
+<tech name="DERestoreAge4" type="Normal">
+  <effect type="CommandAdd" tech="PoliticianMusketeerSpanish2" page="1" column="0">
+    <target type="ProtoUnit">TownCenter</target>
+  </effect>
+  <effect type="CommandAdd" tech="PoliticianCavalierSpanish2" page="1" column="0">
+    <target type="ProtoUnit">TownCenter</target>
+  </effect>
+</tech>
+<tech name="DERestoreAge5" type="Normal">
+</tech>
+<tech name="DENatJagiellonInheritance" type="Normal">
+  <effect tech="PoliticianScoutSpanish2" type="Data" amount="4.00" subtype="FreeHomeCityUnitByTechActiveCount" unittype="altLancero" relativity="Absolute">
+    <target type="Player">
+    </target>
+  </effect>
+  <effect tech="PoliticianMusketeerSpanish2" type="Data" amount="10.00" subtype="FreeHomeCityUnitByTechActiveCount" unittype="altArquebusier" relativity="Absolute">
+    <target type="Player">
+    </target>
+  </effect>
+  <effect tech="PoliticianCavalierSpanish2" type="Data" amount="6.00" subtype="FreeHomeCityUnitByTechActiveCount" unittype="altLancero" relativity="Absolute">
+    <target type="Player">
+    </target>
+  </effect>
+</tech>
 
 <!-- Spanish2: Cortez -->
   <tech name="altAge0Spanish2" type="Normal">
@@ -232,11 +282,11 @@
       <effect type="TechStatus" status="obtainable">UnlockPoliticianAdmiralSpanish</effect>
       <effect type="TechStatus" status="obtainable">PoliticianAdventurerSpanish</effect>
       <effect type="TechStatus" status="obtainable">PoliticianSergeantSpanish</effect>
-      <effect type="TechStatus" status="obtainable">UnlockPoliticianScoutSpanish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianScoutSpanish2</effect>
       <effect type="TechStatus" status="obtainable">PoliticianBishopFortress</effect>
-      <effect type="TechStatus" status="obtainable">PoliticianCavalierSpanish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianCavalierSpanish2</effect>
       <effect type="TechStatus" status="obtainable">UnlockPoliticianWarMinisterSpanish</effect>
-      <effect type="TechStatus" status="obtainable">PoliticianMusketeerSpanish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianMusketeerSpanish2</effect>
       <effect type="TechStatus" status="obtainable">UnlockPoliticianEngineerSpanish</effect>
       <effect type="TechStatus" status="obtainable">DEPoliticianPapalGuardSpanish</effect>
       <effect type="TechStatus" status="obtainable">PoliticianPresidente</effect>
@@ -249,8 +299,8 @@
   <tech name="altVeteranArquebus" type="Normal">
     <dbid>60001</dbid>
     <displaynameid>800008</displaynameid>
-    <cost resourcetype="Wood">300.0000</cost>
-    <cost resourcetype="Gold">300.0000</cost>
+    <cost resourcetype="Wood">350.0000</cost>
+    <cost resourcetype="Gold">350.0000</cost>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
@@ -433,6 +483,66 @@
       </effect>
       <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">altConquistador</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="PoliticianScoutSpanish2" type="Normal">
+    <dbid>60008</dbid>
+    <displaynameid>35476</displaynameid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <rollovertextid>800028</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="altLancero" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="PoliticianMusketeerSpanish2" type="Normal">
+    <dbid>60009</dbid>
+    <displaynameid>34155</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>800029</rollovertextid>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="altArquebusier" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="SetAge">Age3</effect>
+    </effects>
+  </tech>
+  <tech name="PoliticianCavalierSpanish2" type="Normal">
+    <dbid>60010</dbid>
+    <displaynameid>34152</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>800030</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="altLancero" relativity="Absolute">
+        <target type="Player">
+        </target>
       </effect>
     </effects>
   </tech>

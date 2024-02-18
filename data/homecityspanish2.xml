@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <homecity>
   <civ>Spanish2</civ>
-  <name>$$500002$$</name>
+  <name>$$800002$$</name>
   <heroname>$$43037$$</heroname>
   <gatherpointunit>HomeCityGatherFlag</gatherpointunit>
   <visual>spanish\spanish_homecity.xml</visual>

@@ -12,18 +12,26 @@
     This mod will stay between 800000 - 899999
     Each civ variant will have its own group of indexes to use, starting sequentially in the thousands place
       Note: this differs from techs and units, that sequence in the hundreds place
-    Spanish2:   800000 - 800999
-    French2:    801000 - 801999
-    British2:   802000 - 802999
-    Russians2:  803000 - 803999
+    The first several strings include the civ name and description:
+      Spanish2:   800000 - 800999
+        <string _locid="800000">Cortes</string>
+        <string _locid="800001">[Insert Cortes description here]</string>
+        <string _locid="800002">Madrid</string>
+        <string _locid="800003">Spanish (Cortes)</string>
+
+    Table of civs:
+      Spanish2:   800000 - 800999
+      French2:    801000 - 801999
+      British2:   802000 - 802999
+      Russians2:  803000 - 803999
 -->
 
   <stringtable>
     <language name="English">
-      <string _locid="500000">Cortez</string>
-      <string _locid="500001">[Insert Cortez description here]</string>
+      <string _locid="500000">Cortés</string>
+      <string _locid="500001">[Insert Cortés description here]</string>
       <string _locid="500002">Madrid</string>
-      <string _locid="500003">Spanish (Cortez)</string>
+      <string _locid="500003">Spanish (Cortés)</string>
 
       <string _locid="500004">Enjolras</string>
       <string _locid="500005">[Insert Enjolras description here]</string>
@@ -40,11 +48,11 @@
       <string _locid="500014">St. Petersburg</string>
       <string _locid="500015">Russians (Peter the Great)</string>
 
-      <!-- Spanish2: Cortez -->
-      <string _locid="800000">Cortez</string>
-      <string _locid="800001">[Insert Cortez description here]</string>
-      <string _locid="800002">Madrid</string>
-      <string _locid="800003">Spanish (Cortez)</string>
+      <!-- Spanish2: Cortes -->
+      <string _locid="800000">Cortés</string>
+      <string _locid="800001">[Insert Cortés description here]</string>
+      <string _locid="800002">Veracruz</string>
+      <string _locid="800003">Spanish (Cortés)</string>
       <string _locid="800004">Arquebusier</string>
       <string _locid="800005">alt Arquebusier</string>
       <string _locid="800006">Early ranged infantry equipped with armor and a short ranged arquebus.</string>
@@ -69,6 +77,9 @@
       <string _locid="800025">Imperial Conquistador</string>
       <string _locid="800026">Conquistador attack and hitpoints increased.</string>
       <string _locid="800027">Imperial upgrade for Conquistadors.</string>
+      <string _locid="800028">4 Lanceros</string>
+      <string _locid="800029">10 Arquebusiers</string>
+      <string _locid="800030">6 Lanceros</string>
 
 
     </language>
