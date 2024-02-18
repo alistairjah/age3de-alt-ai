@@ -66,8 +66,8 @@
     <animfile>spanish2\arquebus\arquebus.xml</animfile>
     <impacttype>Flesh</impacttype>
     <physicsinfo>dude</physicsinfo>
-    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
-    <portraiticon>resources\art\units\infantry_ranged\musketeer\musketeer_portrait.png</portraiticon>
+    <icon>resources\spanish2\arquebusier_icon.png</icon>
+    <portraiticon>resources\spanish2\arquebusier_portrait.png</portraiticon>
     <rollovertextid>800006</rollovertextid>
     <shortrollovertextid>800007</shortrollovertextid>
     <initialhitpoints>180.0000</initialhitpoints>
