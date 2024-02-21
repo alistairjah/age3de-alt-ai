@@ -253,11 +253,11 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">xpPetard</target>
       </effect>
-      <effect type="TechStatus" status="obtainable">ImperialHorseArtillery</effect>
+      <!--<effect type="TechStatus" status="obtainable">ImperialHorseArtillery</effect>
       <effect type="TechStatus" status="obtainable">HeavyHorseArtillery</effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">xpHorseArtillery</target>
-      </effect>
+      </effect>-->
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">xpSpy</target>
       </effect>
@@ -311,7 +311,7 @@
       <techstatus status="Active">Fortressize</techstatus>
     </prereqs>
     <effects>
-      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">altArquebusier</target>
       </effect>
       <effect type="SetName" proto="altArquebusier" culture="none" newname="800008">
@@ -320,7 +320,7 @@
         <target type="Player">
         </target>
       </effect>
-      <effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">altArquebusier</target>
       </effect>
     </effects>

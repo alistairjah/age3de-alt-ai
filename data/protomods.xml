@@ -70,8 +70,8 @@
     <portraiticon>resources\spanish2\arquebusier_portrait.png</portraiticon>
     <rollovertextid>800006</rollovertextid>
     <shortrollovertextid>800007</shortrollovertextid>
-    <initialhitpoints>180.0000</initialhitpoints>
-    <maxhitpoints>180.0000</maxhitpoints>
+    <initialhitpoints>160.0000</initialhitpoints>
+    <maxhitpoints>160.0000</maxhitpoints>
     <los>16.0000</los>
     <projectileprotounit>InvisibleProjectile</projectileprotounit>
     <unitaitype>RangedCombative</unitaitype>
@@ -139,7 +139,7 @@
     </protoaction>
     <protoaction>
       <name>DefendRangedAttack</name>
-      <damage>25.000000</damage>
+      <damage>24.000000</damage>
       <damagetype>Ranged</damagetype>
       <maxrange>10.000000</maxrange>
       <rof>3.000000</rof>
@@ -162,7 +162,7 @@
     </protoaction>
     <protoaction>
       <name>StaggerRangedAttack</name>
-      <damage>25.000000</damage>
+      <damage>24.000000</damage>
       <damagetype>Ranged</damagetype>
       <maxrange>10.000000</maxrange>
       <rof>3.000000</rof>
@@ -177,7 +177,7 @@
     </protoaction>
     <protoaction>
       <name>VolleyRangedAttack</name>
-      <damage>25.000000</damage>
+      <damage>24.000000</damage>
       <damagetype>Ranged</damagetype>
       <maxrange>10.000000</maxrange>
       <rof>3.000000</rof>
