@@ -523,6 +523,14 @@
         <target type="Player">
         </target>
       </effect>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altArquebusier</target>
+      </effect>
+      <effect type="SetName" proto="altArquebusier" culture="none" newname="800031">
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altArquebusier</target>
+      </effect>
       <effect type="SetAge">Age3</effect>
     </effects>
   </tech>

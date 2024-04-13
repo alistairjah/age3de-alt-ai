@@ -78,8 +78,9 @@
       <string _locid="800026">Conquistador attack and hitpoints increased.</string>
       <string _locid="800027">Imperial upgrade for Conquistadors.</string>
       <string _locid="800028">4 Lanceros</string>
-      <string _locid="800029">10 Arquebusiers</string>
+      <string _locid="800029">10 Arquebusiers \n\nImproves Arquebusier attack and hitpoints.</string>
       <string _locid="800030">6 Lanceros</string>
+      <string _locid="800031">Arquebus Musketeer</string>
 
 
     </language>
