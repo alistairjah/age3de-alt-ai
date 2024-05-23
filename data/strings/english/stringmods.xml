@@ -20,10 +20,11 @@
         <string _locid="800003">Spanish (Cortes)</string>
 
     Table of civs:
-      Spanish2:   800000 - 800999
-      French2:    801000 - 801999
-      British2:   802000 - 802999
-      Russians2:  803000 - 803999
+      Spanish2:     800000 - 800999
+      French2:      801000 - 801999
+      British2:     802000 - 802999
+      Russians2:    803000 - 803999
+      Native/Mercs: 804000 - 804999
 -->
 
   <stringtable>
@@ -82,6 +83,25 @@
       <string _locid="800030">6 Lanceros</string>
       <string _locid="800031">Arquebus Musketeer</string>
 
+      <!-- Native Mercs -->
+      <string _locid="804000">alt Tlaxcalan Clubman</string>
+      <string _locid="804001">Tlaxcalan Clubman</string>
+      <string _locid="804002">Fast moving shock infantry, good vs light infantry.</string>
+      <string _locid="804003">alt Tlaxcalan Elite</string>
+      <string _locid="804004">Tlaxcalan Elite</string>
+      <string _locid="804005">Slow moving heavy infantry, counters infantry and cavalry.</string>
+      <string _locid="804006">Elite Tlaxcalan Clubman</string>
+      <string _locid="804007">Elite Tlaxcalan Elite</string>
+      <string _locid="804008">Champion Tlaxcalan Clubman</string>
+      <string _locid="804009">Champion Tlaxcalan Elite</string>
+      <string _locid="804010">Legendary Tlaxcalan Clubman</string>
+      <string _locid="804011">Legendary Tlaxcalan Elite</string>
+      <string _locid="804012">Tlaxcalan Warrior Societies</string>
+      <string _locid="804013">Champion Tlaxcalan</string>
+      <string _locid="804014">Upgrades Tlaxcalan Warriors to Elite.</string>
+      <string _locid="804015">Upgrades Tlaxcalan Warriors to Champion.</string>
+      <string _locid="804016">Temple of Ehecatl</string> 
+      <string _locid="804017">Ehecatl inspires your slingers with the power of the wind.</string> 
 
     </language>
   </stringtable>
