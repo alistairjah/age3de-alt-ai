@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="tlaxcalan\tlaxcalanClubman\textures\tlaxcalanClubman_matA_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\natives\aztec\macehuatlin\textures\macehuatlin_02_matA_Normals">
+      </texture>
+      <texture name="Masks" override="units\natives\aztec\macehuatlin\textures\macehuatlin_02_matA_Masks">
+      </texture>
+      <texture name="Details" override="units\natives\aztec\macehuatlin\textures\macehuatlin_02_matA_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

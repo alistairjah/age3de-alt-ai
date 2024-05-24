@@ -265,6 +265,22 @@
       </unitcounts>
     </multipleblocktrain>
   </civ>
+  <civ>
+    <name>altRevCortes</name>
+    <main>0</main>
+    <displaynameid>80835</displaynameid>
+    <displayrevolutionflag>0</displayrevolutionflag>
+    <revolutionhomecityname>80852</revolutionhomecityname>
+    <homecityflagtexture>objects\flags\spanish</homecityflagtexture>
+    <homecityflagbuttonset>spanishFlagBtn</homecityflagbuttonset>
+    <homecityflagbuttonsetlarge>spanishFlagBtnLarge</homecityflagbuttonsetlarge>
+    <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_spanish</postgameflagtexture>
+    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_spanish.png</postgameflagiconwpf>
+    <homecityflagiconwpf>resources/images/icons/flags/Flag_Spanish.png</homecityflagiconwpf>
+    <homecityflagbuttonwpf>resources\images\icons\flags\flag_hc_spanish.png</homecityflagbuttonwpf>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
 
   <!-- French  -->
 

@@ -487,47 +487,11 @@
       <age>2</age>
     </card>
     <card>
-      <name>HCShipLancers1</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <infiniteinlastage>1</infiniteinlastage>
-      <displayunitcount>4</displayunitcount>
-    </card>
-    <card>
-      <name>HCShipLancers3</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipLancers2</prereqtech>
-      <age>2</age>
-      <displayunitcount>5</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCShipLancers4</name>
-      <maxcount>-1</maxcount>
-      <level>10</level>
-      <prereqtech>HCShipLancers3</prereqtech>
-      <age>3</age>
-      <displayunitcount>7</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>HCCaballeros</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <bindtotech>DEHCREVMXCaballeros</bindtotech>
       <age>2</age>
-    </card>
-    <card>
-      <name>HCShipLancers5</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCShipLancers4</prereqtech>
-      <age>3</age>
-      <displayunitcount>8</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>HCShipFalconets1</name>
@@ -1084,13 +1048,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCXPSpanishGold</name>
-      <maxcount>1</maxcount>
-      <level>40</level>
-      <prereqtech>HCSpanishTreasureFleet</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
       <name>HCShipFrigates</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1138,13 +1095,6 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-    </card>
-    <card>
-      <name>DEHCMercsIrishBrigadiers</name>
-      <maxcount>1</maxcount>
-      <age>1</age>
-      <displayunitcount>9</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCMercsArmoredPistoleers</name>
@@ -1945,6 +1895,132 @@
       <revoltcard>
       </revoltcard>
     </card>
+
+    <!-- Added Native Warrior Cards -->
+    <card>
+      <name>altRevCortezPreTech</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
+      <name>altTlaxcalanClubmanAge2</name>
+      <maxcount>2</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>7</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>altTlaxcalanEliteAge2</name>
+      <maxcount>2</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>altTlaxcalanClubmanAge3</name>
+      <maxcount>2</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>12</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>altTlaxcalanEliteAge3</name>
+      <maxcount>2</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>15</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>altTlaxcalanClubmanAge4</name>
+      <maxcount>2</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>24</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>altTlaxcalanEliteAge4</name>
+      <maxcount>2</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>24</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>altTlaxcalanClubmanAge4repeat</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>24</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>altTlaxcalanEliteAge4repeat</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>24</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>altWarriorSocietyTlaxcalan</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>altChampionTlaxcalan</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>altOtontinAge2</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>9</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>altOtontinAge3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>15</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+
+    <!-- Revolt Cards -->
+    <card>
+      <name>altOtontinAge3Rev</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>15</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+
   </cards>
   <decks>
     <deck>
@@ -1954,7 +2030,6 @@
       <cards>
         <card dbid="2207">HCShipSettlers3</card>
         <card dbid="2208">HCShipSettlers4</card>
-        <card dbid="2618">HCShipLancers5</card>
         <card dbid="2318">HCShipHussars4</card>
         <card dbid="2239">HCShipCannons1</card>
         <card dbid="2190">HCShipCoveredWagons</card>
@@ -1966,7 +2041,6 @@
         <card dbid="2619">HCShipSpanishSquare</card>
         <card dbid="2227">HCShipPikemen1</card>
         <card dbid="2674">HCShipRodeleros5</card>
-        <card dbid="2234">HCShipLancers3</card>
         <card dbid="2215">HCShipCoinCrates3</card>
         <card dbid="2212">HCShipWoodCrates3</card>
         <card dbid="2220">HCShipCows</card>
@@ -1989,7 +2063,6 @@
         <card dbid="3345">HCXPIndustrialRevolution</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="3441">HCXPUnction</card>
-        <card dbid="3464">HCXPSpanishGold</card>
         <card dbid="10003">DEHCMarvelousYear</card>
         <card dbid="2236">HCShipFalconets3</card>
         <card dbid="2213">HCShipWoodCrates4</card>
@@ -2034,7 +2107,6 @@
         <card dbid="1812">HCArmada</card>
         <card dbid="2236">HCShipFalconets3</card>
         <card dbid="469">HCFishMarket</card>
-        <card dbid="2234">HCShipLancers3</card>
         <card dbid="2670">HCFrontierDefenses2</card>
         <card dbid="10008">DEHCShipNuestrasSenoras</card>
       </cards>
@@ -2065,7 +2137,6 @@
         <card dbid="2090">HCSawmills</card>
         <card dbid="2190">HCShipCoveredWagons</card>
         <card dbid="2102">HCTextileMills</card>
-        <card dbid="3464">HCXPSpanishGold</card>
         <card dbid="2095">HCSustainableAgriculture</card>
       </cards>
     </deck>
@@ -2076,7 +2147,6 @@
         <card dbid="3345">HCXPIndustrialRevolution</card>
         <card dbid="2045">HCHandCavalryCombatSpanish</card>
         <card dbid="2622">HCCaballeros</card>
-        <card dbid="3464">HCXPSpanishGold</card>
         <card dbid="2102">HCTextileMills</card>
         <card dbid="2041">HCRefrigeration</card>
         <card dbid="2093">HCRoyalMint</card>
@@ -2106,7 +2176,6 @@
         <card dbid="3345">HCXPIndustrialRevolution</card>
         <card dbid="2045">HCHandCavalryCombatSpanish</card>
         <card dbid="2622">HCCaballeros</card>
-        <card dbid="3464">HCXPSpanishGold</card>
         <card dbid="2102">HCTextileMills</card>
         <card dbid="2041">HCRefrigeration</card>
         <card dbid="2093">HCRoyalMint</card>
@@ -2202,7 +2271,6 @@
         <card>HCXPLandGrab</card>
         <card>DEHCREVBlandengues</card>
         <card>DEHCREVMXCaballeros</card>
-        <card>HCShipLancers4</card>
         <card>DEHCREVShipMortars</card>
         <card>HCXPMercsElmeti</card>
         <card>HCXPMercsGreatCannon</card>
@@ -2262,6 +2330,13 @@
         <card>DEHCChipotles</card>
         <card>DEHCIturbidePalace</card>
         <card>DEHCFedMXPortVeracruz</card>
+      </cards>
+    </revoltdeck>
+    <!-- Special Cortez Revolt. Replaces all cards with native ones -->
+    <revoltdeck civ="altRevCortes">
+      <name>$$45518$$</name>
+      <cards>
+        <card>altOtontinAge3Rev</card>
       </cards>
     </revoltdeck>
   </decks>
@@ -2411,11 +2486,7 @@
       <tech x="4.6" y="3.0">HCHandCavalryHitpointsSpanish</tech>
       <tech x="4.6" y="4.0">HCHandCavalryDamageSpanish</tech>
       <tech x="4.6" y="5.0">HCHandCavalryCombatSpanish</tech>
-      <tech x="5.7" y="1.0">HCShipLancers1</tech>
-      <tech x="5.7" y="3.0">HCShipLancers3</tech>
       <tech x="6.0" y="4.0">HCCaballeros</tech>
-      <tech x="5.3" y="4.0">HCShipLancers4</tech>
-      <tech x="5.3" y="5.0">HCShipLancers5</tech>
       <tech x="6.7" y="1.0">HCShipFalconets1</tech>
       <tech x="6.7" y="2.0">HCShipFalconets2</tech>
       <tech x="6.7" y="3.0">HCShipFalconets3</tech>
@@ -2431,6 +2502,21 @@
       <tech x="7.2" y="7.0">DEHCPeninsularGuerrillas</tech>
       <tech x="7.2" y="7.0">DEHCReconquista</tech>
       <tech x="7.2" y="7.0">DEHCLiberationMarch</tech>
+      <!-- New shipments -->
+      <tech x="7.2" y="7.0">altTlaxcalanClubmanAge2</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanClubmanAge3</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanClubmanAge4</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanClubmanAge4repeat</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanEliteAge2</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanEliteAge3</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanEliteAge4</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanEliteAge4repeat</tech> 
+      <tech x="7.2" y="7.0">altRevCortezPreTech</tech>
+      <tech x="7.2" y="7.0">altWarriorSocietyTlaxcalan</tech>
+      <tech x="7.2" y="7.0">altChampionTlaxcalan</tech>
+      <tech x="7.2" y="7.0">altOtontinAge2</tech>
+      <tech x="7.2" y="7.0">altOtontinAge3</tech>
+
     </obtainabletechs>
     <activetechs>
       <tech x="0.0" y="3.0">HCArchaicTrainingTeam</tech>
@@ -2457,11 +2543,7 @@
       <tech x="4.6" y="3.0">HCHandCavalryHitpointsSpanish</tech>
       <tech x="4.6" y="4.0">HCHandCavalryDamageSpanish</tech>
       <tech x="4.6" y="5.0">HCHandCavalryCombatSpanish</tech>
-      <tech x="5.7" y="1.0">HCShipLancers1</tech>
-      <tech x="5.7" y="3.0">HCShipLancers3</tech>
       <tech x="6.0" y="4.0">HCCaballeros</tech>
-      <tech x="5.3" y="4.0">HCShipLancers4</tech>
-      <tech x="5.3" y="5.0">HCShipLancers5</tech>
       <tech x="6.7" y="1.0">HCShipFalconets1</tech>
       <tech x="6.7" y="2.0">HCShipFalconets2</tech>
       <tech x="6.7" y="3.0">HCShipFalconets3</tech>
@@ -2477,6 +2559,22 @@
       <tech x="7.2" y="7.0">DEHCPeninsularGuerrillas</tech>
       <tech x="7.2" y="7.0">DEHCReconquista</tech>
       <tech x="7.2" y="7.0">DEHCLiberationMarch</tech>
+
+      <!-- New shipments -->
+      <tech x="7.2" y="7.0">altTlaxcalanClubmanAge2</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanClubmanAge3</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanClubmanAge4</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanClubmanAge4repeat</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanEliteAge2</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanEliteAge3</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanEliteAge4</tech>
+      <tech x="7.2" y="7.0">altTlaxcalanEliteAge4repeat</tech>
+      <tech x="7.2" y="7.0">altRevCortezPreTech</tech>
+      <tech x="7.2" y="7.0">altWarriorSocietyTlaxcalan</tech>
+      <tech x="7.2" y="7.0">altChampionTlaxcalan</tech>
+      <tech x="7.2" y="7.0">altOtontinAge2</tech>
+      <tech x="7.2" y="7.0">altOtontinAge3</tech>
+
     </activetechs>
     <validunits>
     </validunits>
@@ -2656,7 +2754,6 @@
       <tech x="1.7" y="3.0">HCSpanishGalleons</tech>
       <tech x="1.7" y="4.0">HCArmada</tech>
       <tech x="1.7" y="5.0">HCSpanishTreasureFleet</tech>
-      <tech x="1.7" y="7.0">HCXPSpanishGold</tech>
       <tech x="3.6" y="1.0">DEHCTheaters</tech>
       <tech x="2.8" y="3.0">HCShipFrigates</tech>
       <tech x="2.4" y="4.0">HCNavalCombat</tech>
@@ -2673,7 +2770,6 @@
       <tech x="6.5" y="4.0">HCXPMercsFusiliers</tech>
       <tech x="6.5" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="6.5" y="1.0">HCPrivateers</tech>
-      <tech x="7.2" y="1.0">DEHCMercsIrishBrigadiers</tech>
       <tech x="7.2" y="3.0">DEHCHabsburgAllies1</tech>
       <tech x="7.2" y="3.0">DEHCBourbonAllies1</tech>
       <tech x="7.2" y="7.0">HCXPMayanAlliesRepeat</tech>
@@ -2688,7 +2784,6 @@
       <tech x="1.7" y="3.0">HCSpanishGalleons</tech>
       <tech x="1.7" y="4.0">HCArmada</tech>
       <tech x="1.7" y="5.0">HCSpanishTreasureFleet</tech>
-      <tech x="1.7" y="7.0">HCXPSpanishGold</tech>
       <tech x="3.6" y="1.0">DEHCTheaters</tech>
       <tech x="2.8" y="3.0">HCShipFrigates</tech>
       <tech x="2.4" y="4.0">HCNavalCombat</tech>
@@ -2705,7 +2800,6 @@
       <tech x="6.5" y="4.0">HCXPMercsFusiliers</tech>
       <tech x="6.5" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="6.5" y="1.0">HCPrivateers</tech>
-      <tech x="7.2" y="1.0">DEHCMercsIrishBrigadiers</tech>
       <tech x="7.2" y="3.0">DEHCHabsburgAllies1</tech>
       <tech x="7.2" y="3.0">DEHCBourbonAllies1</tech>
       <tech x="7.2" y="7.0">HCXPMayanAlliesRepeat</tech>

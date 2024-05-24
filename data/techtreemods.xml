@@ -286,22 +286,22 @@
       <effect type="TechStatus" status="obtainable">PoliticianGovernor</effect>
       <effect type="TechStatus" status="obtainable">UnlockPoliticianNaturalistSpanish</effect>
       <effect type="TechStatus" status="obtainable">UnlockPoliticianPhilosopherPrinceSpanish</effect>
-      <effect type="TechStatus" status="obtainable">DEPoliticianLogisticianSpanish</effect>
+      <!--<effect type="TechStatus" status="obtainable">DEPoliticianLogisticianSpanish</effect>-->
       <effect type="TechStatus" status="obtainable">DEPoliticianInventorColonial</effect>
       <effect type="TechStatus" status="obtainable">UnlockPoliticianAdmiralSpanish</effect>
       <effect type="TechStatus" status="obtainable">PoliticianAdventurerSpanish</effect>
       <effect type="TechStatus" status="obtainable">PoliticianSergeantSpanish</effect>
       <effect type="TechStatus" status="obtainable">PoliticianScoutSpanish2</effect>
-      <effect type="TechStatus" status="obtainable">PoliticianBishopFortress</effect>
+      <!--<effect type="TechStatus" status="obtainable">PoliticianBishopFortress</effect>-->
       <effect type="TechStatus" status="obtainable">PoliticianCavalierSpanish2</effect>
       <effect type="TechStatus" status="obtainable">UnlockPoliticianWarMinisterSpanish</effect>
       <effect type="TechStatus" status="obtainable">PoliticianMusketeerSpanish2</effect>
       <effect type="TechStatus" status="obtainable">UnlockPoliticianEngineerSpanish</effect>
-      <effect type="TechStatus" status="obtainable">DEPoliticianPapalGuardSpanish</effect>
+      <!--<effect type="TechStatus" status="obtainable">DEPoliticianPapalGuardSpanish</effect>-->
       <effect type="TechStatus" status="obtainable">PoliticianPresidente</effect>
       <effect type="TechStatus" status="obtainable">PoliticianGeneral</effect>
       <effect type="TechStatus" status="obtainable">DEPoliticianMercContractor</effect>
-      <effect type="TechStatus" status="obtainable">DEPoliticianInventor</effect>
+      <!--<effect type="TechStatus" status="obtainable">DEPoliticianInventor</effect>-->
       <effect type="TechStatus" status="obtainable">DEPoliticianKnight</effect>
     </effects>
   </tech>
@@ -566,7 +566,7 @@
 
   <tech name="altTlaxcalanClubmanAge4repeat" type="Normal">
     <dbid>60013</dbid>
-    <displaynameid>46995</displaynameid>
+    <displaynameid>804018</displaynameid>
     <cost resourcetype="Gold">1000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
@@ -585,7 +585,7 @@
   </tech>
   <tech name="altTlaxcalanClubmanAge4" type="Normal">
     <dbid>60014</dbid>
-    <displaynameid>44720</displaynameid>
+    <displaynameid>804018</displaynameid>
     <cost resourcetype="Gold">1000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
@@ -604,7 +604,7 @@
   </tech>
   <tech name="altTlaxcalanClubmanAge2" type="Normal">
     <dbid>60015</dbid>
-    <displaynameid>44719</displaynameid>
+    <displaynameid>804018</displaynameid>
     <cost resourcetype="Gold">500.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
@@ -614,7 +614,7 @@
     <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
     <flag>DEColonialMercShipment</flag>
     <effects>
-      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="11.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="altTlaxcalanClubman" relativity="Absolute">
+      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="7.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="altTlaxcalanClubman" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
@@ -622,7 +622,7 @@
   </tech>
   <tech name="altTlaxcalanClubmanAge3" type="Normal">
     <dbid>60016</dbid>
-    <displaynameid>44719</displaynameid>
+    <displaynameid>804018</displaynameid>
     <cost resourcetype="Gold">500.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
@@ -632,7 +632,7 @@
     <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
     <flag>DEFortressMercShipment</flag>
     <effects>
-      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="15.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="altTlaxcalanClubman" relativity="Absolute">
+      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="12.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="altTlaxcalanClubman" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
@@ -640,7 +640,7 @@
   </tech>
   <tech name="altTlaxcalanEliteAge4repeat" type="Normal">
     <dbid>60017</dbid>
-    <displaynameid>46995</displaynameid>
+    <displaynameid>804019</displaynameid>
     <cost resourcetype="Gold">1000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
@@ -659,7 +659,7 @@
   </tech>
   <tech name="altTlaxcalanEliteAge4" type="Normal">
     <dbid>60018</dbid>
-    <displaynameid>44720</displaynameid>
+    <displaynameid>804019</displaynameid>
     <cost resourcetype="Gold">1000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
@@ -678,7 +678,7 @@
   </tech>
   <tech name="altTlaxcalanEliteAge2" type="Normal">
     <dbid>60019</dbid>
-    <displaynameid>44719</displaynameid>
+    <displaynameid>804019</displaynameid>
     <cost resourcetype="Gold">500.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
@@ -688,7 +688,7 @@
     <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
     <flag>DEColonialMercShipment</flag>
     <effects>
-      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="11.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="altTlaxcalanElite" relativity="Absolute">
+      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="9.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="altTlaxcalanElite" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
@@ -696,7 +696,7 @@
   </tech>
   <tech name="altTlaxcalanEliteAge3" type="Normal">
     <dbid>60020</dbid>
-    <displaynameid>44719</displaynameid>
+    <displaynameid>804019</displaynameid>
     <cost resourcetype="Gold">500.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
@@ -808,6 +808,128 @@
   </tech>
   <tech name="altOtontinAge3" type="Normal">
     <dbid>60024</dbid>
+    <displaynameid>804016</displaynameid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\otontinAge3.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpMacehualtin" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">xpMacehualtin</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">xpMacehualtin</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="3.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">xpMacehualtin</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="3.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">xpMacehualtin</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="3.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">xpMacehualtin</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">xpMacehualtin</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="altRevCortezPreTech" type="Normal">
+    <dbid>60025</dbid>
+    <displaynameid>804020</displaynameid>
+    <cost resourcetype="Food">700.0000</cost>
+    <cost resourcetype="Wood">700.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\spanish2\cortesRev.png</icon>
+    <rollovertextid>804021</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">altRevolutionCortez</effect>
+    </effects>
+  </tech>
+  <tech name="altRevolutionCortez" type="Normal">
+    <dbid>60026</dbid>
+    <displaynameid>804020</displaynameid>
+    <cost resourcetype="Food">700.0000</cost>
+    <cost resourcetype="Wood">700.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\revolution.png</icon>
+    <rollovertextid>804021</rollovertextid>
+    <revolutionciv>altRevCortes</revolutionciv>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>RevoltTech</flag>
+    <flag>DENonStandardRevolution</flag>
+    <flag>DESubRevolution</flag>
+    <prereqs>
+      <techstatus status="Active">altRevCortezPreTech</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="InitiateRevolution" proto="none">
+      </effect>
+      <!-- Boost non-native unit stats -->
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altLancero</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altLancero</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altArquebusier</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altArquebusier</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altConquistador</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altConquistador</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Rodelero</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Rodelero</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Crossbowman</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Crossbowman</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <!-- Ship a large number of reinforcements -->
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Rodelero" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altOtontinAge3Rev" type="Normal">
+    <dbid>60027</dbid>
     <displaynameid>804016</displaynameid>
     <cost resourcetype="Gold">500.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>

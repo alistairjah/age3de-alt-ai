@@ -102,6 +102,11 @@
       <string _locid="804015">Upgrades Tlaxcalan Warriors to Champion.</string>
       <string _locid="804016">Temple of Ehecatl</string> 
       <string _locid="804017">Ehecatl inspires your slingers with the power of the wind.</string> 
+      <string _locid="804018">Tlaxcalan Clubmen Support</string> 
+      <string _locid="804019">Tlaxcalan Elite Support</string> 
+      <string _locid="804020">Scuttle the Fleet</string> 
+      <string _locid="804021">Cut off your contact with the mainland, reinvigorate your support among your men, and quash any rumors of abandoning this fight.</string> 
+
 
     </language>
   </stringtable>

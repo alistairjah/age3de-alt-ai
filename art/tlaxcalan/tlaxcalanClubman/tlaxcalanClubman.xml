@@ -30,7 +30,7 @@
   </attachment>
   <component>ModelComp
       <assetreference type="GrannyModel">
-        <file>units\natives\aztec\macehuatlin\macehuatlin_02</file>
+        <file>tlaxcalan\tlaxcalanClubman\tlaxcalanClubman</file>
       </assetreference>
       <attach a="shield_01" frombone="bone_shield" tobone="Bip01 L ForeArm" syncanims="0"></attach>
     <attach a="club" frombone="MASTER" tobone="bip01 Prop1" syncanims="0"></attach>
