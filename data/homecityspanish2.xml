@@ -283,10 +283,10 @@
       <age>2</age>
     </card>
     <card>
-      <name>DEHCNewSpainViceroyalty</name>
+      <name>altHCNewSpainViceroyalty</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <bindtotech>DEHCNewSpainViceroyalty</bindtotech>
+      <bindtotech>altHCNewSpainViceroyalty</bindtotech>
       <age>2</age>
       <displayunitcount>2</displayunitcount>
     </card>
@@ -1124,30 +1124,12 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCMercsHighlanders</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>HCMercsSwissPikemen</prereqtech>
-      <age>2</age>
-      <displayunitcount>9</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>HCXPMercsFusiliers</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCMercsHessians</prereqtech>
       <age>3</age>
       <displayunitcount>8</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCMercsHighland</name>
-      <maxcount>-1</maxcount>
-      <level>25</level>
-      <prereqtech>HCMercsHighlanders</prereqtech>
-      <age>3</age>
-      <displayunitcount>18</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1182,15 +1164,6 @@
       <prereqtech>-1</prereqtech>
       <age>1</age>
       <displayunitcount>2</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCHabsburgAllies1</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1902,7 +1875,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>0</age>
+      <age>2</age>
     </card>
     <card>
       <name>altTlaxcalanClubmanAge2</name>
@@ -2048,7 +2021,7 @@
         <card dbid="2236">HCShipFalconets3</card>
         <card dbid="2045">HCHandCavalryCombatSpanish</card>
         <card dbid="2574">HCShipCoinCrates1</card>
-        <card dbid="10005">DEHCNewSpainViceroyalty</card>
+        <card dbid="10005">altHCNewSpainViceroyalty</card>
         <card dbid="10004">DEHCPeninsularGuerrillas</card>
         <card dbid="10001">DEHCShipCannons1Team</card>
       </cards>
@@ -2158,7 +2131,7 @@
         <card dbid="2025">HCHandCavalryHitpointsSpanish</card>
         <card dbid="2101">HCRumDistillery</card>
         <card dbid="7626">DEHCLiberationMarch</card>
-        <card dbid="10005">DEHCNewSpainViceroyalty</card>
+        <card dbid="10005">altHCNewSpainViceroyalty</card>
         <card dbid="10004">DEHCPeninsularGuerrillas</card>
         <card dbid="2029">HCHandCavalryDamageSpanish</card>
         <card dbid="3438">HCXPCapitalism</card>
@@ -2188,7 +2161,7 @@
         <card dbid="2025">HCHandCavalryHitpointsSpanish</card>
         <card dbid="2101">HCRumDistillery</card>
         <card dbid="7626">DEHCLiberationMarch</card>
-        <card dbid="10005">DEHCNewSpainViceroyalty</card>
+        <card dbid="10005">altHCNewSpainViceroyalty</card>
         <card dbid="10004">DEHCPeninsularGuerrillas</card>
         <card dbid="2029">HCHandCavalryDamageSpanish</card>
         <card dbid="3438">HCXPCapitalism</card>
@@ -2322,7 +2295,7 @@
         <card>DEHCCharreada</card>
         <card>DEHCBarbacoa</card>
         <card>DEHCREVMXCaballeros</card>
-        <card>DEHCNewSpainViceroyalty</card>
+        <card>altHCNewSpainViceroyalty</card>
         <card>DEHCFedMXThreeGuarantees</card>
         <card>DEHCREVMXShipHaciendaWagonRepeat</card>
         <card>DEHCFedMXZacatecasSilver</card>
@@ -2408,7 +2381,7 @@
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
       <tech x="7.0" y="5.0">HCShipBalloons</tech>
       <tech x="7.2" y="7.0">DEHCMarvelousYear</tech>
-      <tech x="7.2" y="7.0">DEHCNewSpainViceroyalty</tech>
+      <tech x="7.2" y="7.0">altHCNewSpainViceroyalty</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.7" y="1.0">HCShipSettlers1</tech>
@@ -2439,7 +2412,7 @@
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
       <tech x="7.0" y="5.0">HCShipBalloons</tech>
       <tech x="7.2" y="7.0">DEHCMarvelousYear</tech>
-      <tech x="7.2" y="7.0">DEHCNewSpainViceroyalty</tech>
+      <tech x="7.2" y="7.0">altHCNewSpainViceroyalty</tech>
     </activetechs>
     <validunits>
     </validunits>
@@ -2761,8 +2734,6 @@
       <tech x="3.1" y="7.0">HCXPShipMonitorsTeam</tech>
       <tech x="2.8" y="1.0">HCAdmirality</tech>
       <tech x="4.4" y="3.0">HCMercsSwissPikemen</tech>
-      <tech x="4.4" y="4.0">HCMercsHighlanders</tech>
-      <tech x="4.4" y="5.0">HCMercsHighland</tech>
       <tech x="5.1" y="3.0">DEHCMercsArmoredPistoleers</tech>
       <tech x="5.1" y="5.0">HCMercsMediterranean</tech>
       <tech x="5.8" y="4.0">HCXPMercsElmeti</tech>
@@ -2770,7 +2741,6 @@
       <tech x="6.5" y="4.0">HCXPMercsFusiliers</tech>
       <tech x="6.5" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="6.5" y="1.0">HCPrivateers</tech>
-      <tech x="7.2" y="3.0">DEHCHabsburgAllies1</tech>
       <tech x="7.2" y="3.0">DEHCBourbonAllies1</tech>
       <tech x="7.2" y="7.0">HCXPMayanAlliesRepeat</tech>
       <tech x="7.2" y="7.0">DEHCShipNuestrasSenoras</tech>
@@ -2791,8 +2761,6 @@
       <tech x="3.1" y="7.0">HCXPShipMonitorsTeam</tech>
       <tech x="2.8" y="1.0">HCAdmirality</tech>
       <tech x="4.4" y="3.0">HCMercsSwissPikemen</tech>
-      <tech x="4.4" y="4.0">HCMercsHighlanders</tech>
-      <tech x="4.4" y="5.0">HCMercsHighland</tech>
       <tech x="5.1" y="3.0">DEHCMercsArmoredPistoleers</tech>
       <tech x="5.1" y="5.0">HCMercsMediterranean</tech>
       <tech x="5.8" y="4.0">HCXPMercsElmeti</tech>
@@ -2800,7 +2768,6 @@
       <tech x="6.5" y="4.0">HCXPMercsFusiliers</tech>
       <tech x="6.5" y="5.0">HCMercenaryLoyalty</tech>
       <tech x="6.5" y="1.0">HCPrivateers</tech>
-      <tech x="7.2" y="3.0">DEHCHabsburgAllies1</tech>
       <tech x="7.2" y="3.0">DEHCBourbonAllies1</tech>
       <tech x="7.2" y="7.0">HCXPMayanAlliesRepeat</tech>
       <tech x="7.2" y="7.0">DEHCShipNuestrasSenoras</tech>

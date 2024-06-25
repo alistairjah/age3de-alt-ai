@@ -1,0 +1,16 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="tetzcoco\warrior\textures\attachment_eagle_shield_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="tetzcoco\warrior\textures\attachment_eagle_shield_mata_normals">
+      </texture>
+      <texture name="Masks" override="tetzcoco\warrior\textures\attachment_eagle_shield_mata_masks">
+      </texture>
+      <texture name="Details" override="tetzcoco\warrior\textures\attachment_eagle_shield_mata_details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

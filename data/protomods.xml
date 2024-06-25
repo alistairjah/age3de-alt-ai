@@ -607,5 +607,115 @@
         <damagebonus type="AbstractLightInfantry">2.000000</damagebonus>
       </protoaction>
     </unit>
+    <unit id="50102" name="altTetzcocoWarrior">
+      <dbid>50102</dbid>
+      <displaynameid>804024</displaynameid>
+      <editornameid>804029</editornameid>
+      <populationcount>0</populationcount>
+      <obstructionradiusx>0.4900</obstructionradiusx>
+      <obstructionradiusz>0.4900</obstructionradiusz>
+      <formationcategory>Body</formationcategory>
+      <maxvelocity>5.000</maxvelocity>
+      <maxrunvelocity>6.5000</maxrunvelocity>
+      <movementtype>land</movementtype>
+      <turnrate>18.0000</turnrate>
+      <animfile>tetzcoco\warrior\warrior.xml</animfile>
+      <impacttype>Flesh</impacttype>
+      <physicsinfo>dude</physicsinfo>
+      <icon>resources\tetzcoco\tetzcocowarrior_icon.png</icon>
+      <portraiticon>resources\tetzcoco\tetzcocowarrior_portrait.png</portraiticon>
+      <rollovertextid>804025</rollovertextid>
+      <shortrollovertextid>804025</shortrollovertextid>
+      <initialhitpoints>210.0000</initialhitpoints>
+      <maxhitpoints>210.0000</maxhitpoints>
+      <los>12.0000</los>
+      <unitaitype>HandCombative</unitaitype>
+      <trainpoints>30.0000</trainpoints>
+      <buildlimit>30</buildlimit>
+      <bounty>10.0000</bounty>
+      <buildbounty>10.0000</buildbounty>
+      <cost resourcetype="Food">40.0000</cost>
+      <cost resourcetype="Wood">60.0000</cost>
+      <allowedage>1</allowedage>
+      <armor type="Hand" value="0.1000">
+      </armor>
+      <unittype>LogicalTypeHealed</unittype>
+      <unittype>LogicalTypeValidSharpshoot</unittype>
+      <unittype>LogicalTypeNeededForVictory</unittype>
+      <unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+      <unittype>LogicalTypeLandMilitary</unittype>
+      <unittype>LogicalTypeScout</unittype>
+      <unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+      <unittype>LogicalTypeGarrisonInShips</unittype>
+      <unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+      <unittype>LogicalTypeRangedUnitsAutoAttackNoVillagers</unittype>
+      <unittype>LogicalTypeVillagersAttack</unittype>
+      <unittype>LogicalTypeHandUnitsAttack</unittype>
+      <unittype>LogicalTypeRangedUnitsAttack</unittype>
+      <unittype>LogicalTypeMinimapFilterMilitary</unittype>
+      <unittype>HasBountyValue</unittype>
+      <unittype>AbstractCavalryInfantry</unittype>
+      <unittype>CountsTowardMilitaryScore</unittype>
+      <unittype>MercType1</unittype>
+      <unittype>AbstractHandInfantry</unittype>
+      <unittype>ConvertsHerds</unittype>
+      <unittype>Unit</unittype>
+      <unittype>UnitClass</unittype>
+      <unittype>Military</unittype>
+      <unittype>AbstractInfantry</unittype>
+      <unittype>AbstractNativeWarrior</unittype>
+      <unittype>AbstractHeavyInfantry</unittype>
+      <flag>CollidesWithProjectiles</flag>
+      <flag>ApplyHandicapTraining</flag>
+      <flag>CorpseDecays</flag>
+      <flag>ShowGarrisonButton</flag>
+      <flag>DontRotateObstruction</flag>
+      <flag>ObscuredByUnits</flag>
+      <flag>VisibleUnderFogIfGaia</flag>
+      <flag>Tracked</flag>
+      <command page="10" column="1">Stop</command>
+      <command page="10" column="0">Garrison</command>
+      <command page="10" column="7">Delete</command>
+      <tactics>swordsman.tactics</tactics>
+      <protoaction>
+        <name>BuildingAttack</name>
+        <damage>24.000000</damage>
+        <damagetype>Siege</damagetype>
+        <rof>3.000000</rof>
+      </protoaction>
+      <protoaction>
+        <name>CoverBuildingAttack</name>
+        <damage>12.000000</damage>
+        <damagetype>Siege</damagetype>
+        <rof>3.000000</rof>
+      </protoaction>
+      <protoaction>
+        <name>CoverHandAttack</name>
+        <damage>6.000000</damage>
+        <damagetype>Hand</damagetype>
+        <rof>1.500000</rof>
+        <damagebonus type="AbstractCavalry">1.7500000</damagebonus>
+        <damagebonus type="AbstractHeavyInfantry">1.75000</damagebonus>
+        <damagebonus type="AbstractLightInfantry">2.500000</damagebonus>
+      </protoaction>
+      <protoaction>
+        <name>DefendHandAttack</name>
+        <damage>12.000000</damage>
+        <damagetype>Hand</damagetype>
+        <rof>1.500000</rof>
+        <damagebonus type="AbstractCavalry">1.7500000</damagebonus>
+        <damagebonus type="AbstractHeavyInfantry">1.75000</damagebonus>
+        <damagebonus type="AbstractLightInfantry">2.500000</damagebonus>
+      </protoaction>
+      <protoaction>
+        <name>MeleeHandAttack</name>
+        <damage>12.000000</damage>
+        <damagetype>Hand</damagetype>
+        <rof>1.500000</rof>
+        <damagebonus type="AbstractCavalry">1.7500000</damagebonus>
+        <damagebonus type="AbstractHeavyInfantry">1.75000</damagebonus>
+        <damagebonus type="AbstractLightInfantry">2.500000</damagebonus>
+      </protoaction>
+    </unit>
     
 </protomods>

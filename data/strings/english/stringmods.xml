@@ -96,17 +96,24 @@
       <string _locid="804009">Champion Tlaxcalan Elite</string>
       <string _locid="804010">Legendary Tlaxcalan Clubman</string>
       <string _locid="804011">Legendary Tlaxcalan Elite</string>
-      <string _locid="804012">Tlaxcalan Warrior Societies</string>
-      <string _locid="804013">Champion Tlaxcalan</string>
+      <string _locid="804012">Flower War Veterans</string>
+      <string _locid="804013">Temple of Mixcoatl</string>
       <string _locid="804014">Upgrades Tlaxcalan Warriors to Elite.</string>
       <string _locid="804015">Upgrades Tlaxcalan Warriors to Champion.</string>
       <string _locid="804016">Temple of Ehecatl</string> 
       <string _locid="804017">Ehecatl inspires your slingers with the power of the wind.</string> 
-      <string _locid="804018">Tlaxcalan Clubmen Support</string> 
-      <string _locid="804019">Tlaxcalan Elite Support</string> 
+      <string _locid="804018">Tlaxcalan Clubmen Auxiliaries</string> 
+      <string _locid="804019">Tlaxcalan Elite Auxiliaries</string> 
       <string _locid="804020">Scuttle the Fleet</string> 
       <string _locid="804021">Cut off your contact with the mainland, reinvigorate your support among your men, and quash any rumors of abandoning this fight.</string> 
-
+      <string _locid="804022">Otomi Auxiliaries</string> 
+      <string _locid="804023">Ships 2 Haciendas Wagons which can transform into Haciendas that Settlers may gather resources from.</string>
+      <string _locid="804024">Tetzcoco Warrior</string>
+      <string _locid="804025">Slow moving heavy infantry, counters infantry and cavalry.</string>
+      <string _locid="804026">Elite Tetzcoco Warrior</string>
+      <string _locid="804027">Champion Tetzcoco Warrior</string>
+      <string _locid="804028">Legendary Tetzcoco Warrior</string>
+      <string _locid="804029">alt Tetzcoco Warrior</string>
 
     </language>
   </stringtable>

@@ -790,7 +790,7 @@
   </tech>
   <tech name="altOtontinAge2" type="Normal">
     <dbid>60023</dbid>
-    <displaynameid>44719</displaynameid>
+    <displaynameid>804022</displaynameid>
     <cost resourcetype="Gold">500.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
@@ -813,7 +813,7 @@
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\units\otontinAge3.png</icon>
+    <icon>resources\tlaxcalan\otontinAge3.png</icon>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpMacehualtin" relativity="Absolute">
@@ -935,7 +935,7 @@
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\art\units\otontinAge3.png</icon>
+    <icon>resources\tlaxcalan\otontinAge3.png</icon>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpMacehualtin" relativity="Absolute">
@@ -960,6 +960,35 @@
       <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
         <target type="ProtoUnit">xpMacehualtin</target>
       </effect>
+    </effects>
+  </tech>
+
+  <tech name="altHCNewSpainViceroyalty" type="Normal">
+    <dbid>10005</dbid>
+    <displaynameid>104863</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\spanish\new_spain.png</icon>
+    <rollovertextid>804023</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deHaciendaWagon" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="TechStatus" status="active">DEAltaCaliforniaShadow</effect>
+      <effect type="Data" amount="1.00" tactic="HaciendaSettler" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">deHacienda</target>
+      </effect>
+      <effect type="Data" action="SpawnSettler" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deHacienda</target>
+      </effect>
+      <effect tech="ypFreeCoinCrate400" type="Data" amount="1.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="deCrateSpanishGold" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
 
