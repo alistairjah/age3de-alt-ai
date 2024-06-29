@@ -926,6 +926,19 @@
         <target type="Player">
         </target>
       </effect>
+      <!-- Disable Villagers -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="CommandRemove" proto="Settler">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="CommandRemove" proto="FishingBoat">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
     </effects>
   </tech>
   <tech name="altOtontinAge3Rev" type="Normal">
@@ -1051,6 +1064,52 @@
         <target type="Player">
         </target>
       </effect>
+    </effects>
+  </tech>
+  <tech name="altNativeVilShipment" type="Normal">
+    <dbid>60033</dbid>
+    <displaynameid>804032</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\mexicans\revolutions\kuchkabal.png</icon>
+    <rollovertextid>804033</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deREVNativeVillager</target>
+      </effect>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deREVNativeVillager" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altTetzcocoTemple" type="Normal">
+    <dbid>60034</dbid>
+    <displaynameid>804034</displaynameid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\tlaxcalan\otontinAge3.png</icon>
+    <rollovertextid>804035</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="altTetzcocoWarrior" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altTetzcocoWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altTetzcocoWarrior</target>
+      </effect>
+      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">altTetzcocoWarrior</target>
+      </effect>
+
     </effects>
   </tech>
 

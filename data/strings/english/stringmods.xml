@@ -116,6 +116,11 @@
       <string _locid="804029">alt Tetzcoco Warrior</string>
       <string _locid="804030">Tetzcoco Auxiliaries</string>
       <string _locid="804031">Ships a number of Tetzcoco Warriors</string>
+      <string _locid="804032">Native Villagers</string>
+      <string _locid="804033">Ships a number of Native Villagers</string>
+      <string _locid="804034">Temple of Tloque Nahuaque</string>
+      <string _locid="804035">Ships a number of Tetzcoco Warriors and improves them in combat.</string>
+      
 
     </language>
   </stringtable>
