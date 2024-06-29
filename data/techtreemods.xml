@@ -577,7 +577,7 @@
     <flag>YPInfiniteTech</flag>
     <flag>DEIndustrialRepeatMercShipment</flag>
     <effects>
-      <effect type="Data" amount="17.00" subtype="FreeHomeCityUnit" unittype="altTlaxcalanClubman" relativity="Absolute">
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="altTlaxcalanClubman" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
@@ -651,7 +651,7 @@
     <flag>YPInfiniteTech</flag>
     <flag>DEIndustrialRepeatMercShipment</flag>
     <effects>
-      <effect type="Data" amount="17.00" subtype="FreeHomeCityUnit" unittype="altTlaxcalanElite" relativity="Absolute">
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="altTlaxcalanElite" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
@@ -847,7 +847,7 @@
     <cost resourcetype="Food">700.0000</cost>
     <cost resourcetype="Wood">700.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
-    <researchpoints>60.0000</researchpoints>
+    <researchpoints>20.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\spanish2\cortesRev.png</icon>
     <rollovertextid>804021</rollovertextid>
@@ -962,9 +962,8 @@
       </effect>
     </effects>
   </tech>
-
   <tech name="altHCNewSpainViceroyalty" type="Normal">
-    <dbid>10005</dbid>
+    <dbid>60028</dbid>
     <displaynameid>104863</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
@@ -989,6 +988,69 @@
         </target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="altOtontinRevInf" type="Normal">
+    <dbid>60029</dbid>
+    <displaynameid>804022</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\tlaxcalan\otontinAge2.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="xpMacehualtin" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altTlaxcalanEliteAge4Rev" type="Normal">
+    <dbid>60030</dbid>
+    <displaynameid>804019</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\tlaxcalan\TlaxcalanElite_inf.png</icon>
+    <rollovertextid>46994</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="altTlaxcalanElite" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altTlaxcalanClubmanAge4Rev" type="Normal">
+    <dbid>60031</dbid>
+    <displaynameid>804018</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\tlaxcalan\TlaxcalanClubman_inf.png</icon>
+    <rollovertextid>46994</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="altTlaxcalanClubman" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altTetzcocoAge4Rev" type="Normal">
+    <dbid>60032</dbid>
+    <displaynameid>804030</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\tetzcoco\tetzcocowarrior_inf.png</icon>
+    <rollovertextid>804031</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="altTetzcocoWarrior" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
     </effects>
   </tech>
 

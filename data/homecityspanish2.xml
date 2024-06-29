@@ -1937,7 +1937,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>24</displayunitcount>
+      <displayunitcount>12</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1946,22 +1946,8 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>3</age>
-      <displayunitcount>24</displayunitcount>
+      <displayunitcount>12</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>altWarriorSocietyTlaxcalan</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
-      <name>altChampionTlaxcalan</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
     </card>
     <card>
       <name>altOtontinAge2</name>
@@ -1993,6 +1979,65 @@
       <revoltcard>
       </revoltcard>
     </card>
+    <card>
+      <name>altWarriorSocietyTlaxcalan</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>altChampionTlaxcalan</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>altOtontinRevInf</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>1</age>
+      <displayunitcount>12</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>altTlaxcalanEliteAge4Rev</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>14</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>altTlaxcalanClubmanAge4Rev</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>14</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>altTetzcocoAge4Rev</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>14</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+
 
   </cards>
   <decks>
@@ -2310,6 +2355,12 @@
       <name>$$45518$$</name>
       <cards>
         <card>altOtontinAge3Rev</card>
+        <card>altWarriorSocietyTlaxcalan</card>
+        <card>altChampionTlaxcalan</card>
+        <card>altOtontinRevInf</card>
+        <card>altTlaxcalanEliteAge4Rev</card>
+        <card>altTlaxcalanClubmanAge4Rev</card>
+        <card>altTetzcocoAge4Rev</card>
       </cards>
     </revoltdeck>
   </decks>
@@ -2485,8 +2536,6 @@
       <tech x="7.2" y="7.0">altTlaxcalanEliteAge4</tech>
       <tech x="7.2" y="7.0">altTlaxcalanEliteAge4repeat</tech> 
       <tech x="7.2" y="7.0">altRevCortezPreTech</tech>
-      <tech x="7.2" y="7.0">altWarriorSocietyTlaxcalan</tech>
-      <tech x="7.2" y="7.0">altChampionTlaxcalan</tech>
       <tech x="7.2" y="7.0">altOtontinAge2</tech>
       <tech x="7.2" y="7.0">altOtontinAge3</tech>
 
@@ -2543,8 +2592,6 @@
       <tech x="7.2" y="7.0">altTlaxcalanEliteAge4</tech>
       <tech x="7.2" y="7.0">altTlaxcalanEliteAge4repeat</tech>
       <tech x="7.2" y="7.0">altRevCortezPreTech</tech>
-      <tech x="7.2" y="7.0">altWarriorSocietyTlaxcalan</tech>
-      <tech x="7.2" y="7.0">altChampionTlaxcalan</tech>
       <tech x="7.2" y="7.0">altOtontinAge2</tech>
       <tech x="7.2" y="7.0">altOtontinAge3</tech>
 
