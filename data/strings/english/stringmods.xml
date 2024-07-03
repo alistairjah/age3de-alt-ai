@@ -98,14 +98,14 @@
       <string _locid="804011">Legendary Tlaxcalan Elite</string>
       <string _locid="804012">Flower War Veterans</string>
       <string _locid="804013">Temple of Mixcoatl</string>
-      <string _locid="804014">Upgrades Tlaxcalan Warriors to Elite.</string>
-      <string _locid="804015">Upgrades Tlaxcalan Warriors to Champion.</string>
+      <string _locid="804014">Upgrades Auxiliary Warriors in combat.</string>
+      <string _locid="804015">Upgrades Tlaxcalan Warriors and improves their speed.</string>
       <string _locid="804016">Temple of Ehecatl</string> 
       <string _locid="804017">Ehecatl inspires your slingers with the power of the wind.</string> 
       <string _locid="804018">Tlaxcalan Clubmen Auxiliaries</string> 
       <string _locid="804019">Tlaxcalan Elite Auxiliaries</string> 
-      <string _locid="804020">Scuttle the Fleet</string> 
-      <string _locid="804021">Cut off your contact with the mainland, reinvigorate your support among your men, and quash any rumors of abandoning this fight.</string> 
+      <string _locid="804020">Scuttle the Fleet!</string> 
+      <string _locid="804021">Cut off contact with the mainland, reinvigorating support among your men, and quashing any rumors of abandoning this fight.</string> 
       <string _locid="804022">Otomi Auxiliaries</string> 
       <string _locid="804023">Ships 2 Haciendas Wagons which can transform into Haciendas that Settlers may gather resources from.</string>
       <string _locid="804024">Tetzcoco Warrior</string>
@@ -120,6 +120,18 @@
       <string _locid="804033">Ships a number of Native Villagers</string>
       <string _locid="804034">Temple of Tloque Nahuaque</string>
       <string _locid="804035">Ships a number of Tetzcoco Warriors and improves them in combat.</string>
+      <string _locid="804036">Tlaxcalan War Huts</string>
+      <string _locid="804037">Ships a pair of war huts and allows them to train Tlaxcalan warriors.</string>
+      <string _locid="804038">Tlaxcalan War Hut</string>
+      <string _locid="804039">alt Tlaxcalan War Hut</string>
+      <string _locid="804040">Otomi of Ehecatl</string>
+      <string _locid="804041">Mixcoatl's Clubmen</string>
+      <string _locid="804042">Mixcoatl's Elite</string>
+      <string _locid="804043">Warriors of Tloque Nahuaque</string>
+      <string _locid="804044">Otomi Slinger</string> 
+      <string _locid="804045">alt Otomi Slinger</string> 
+      <string _locid="804046">Altepetl Alliances</string>
+      <string _locid="804047">All native warriors are less expensive, and auxiliary warriors are incorporated into your main force by replacing their build limit with a population cost.</string>
       
 
     </language>

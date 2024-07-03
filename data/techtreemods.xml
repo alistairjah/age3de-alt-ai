@@ -254,11 +254,12 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">deTavern</target>
       </effect>
-      <effect type="TechStatus" status="obtainable">DERevolutionChile</effect>
+      <!--<effect type="TechStatus" status="obtainable">DERevolutionChile</effect>
       <effect type="TechStatus" status="obtainable">DERevolutionMexico</effect>
       <effect type="TechStatus" status="obtainable">DERevolutionPeru</effect>
       <effect type="TechStatus" status="obtainable">DERevolutionArgentina</effect>
-      <effect type="TechStatus" status="obtainable">DERevolutionColombia</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionColombia</effect>-->
+      <effect type="TechStatus" status="obtainable">altRevStdCortezPreTech</effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">xpPetard</target>
       </effect>
@@ -303,6 +304,7 @@
       <effect type="TechStatus" status="obtainable">DEPoliticianMercContractor</effect>
       <!--<effect type="TechStatus" status="obtainable">DEPoliticianInventor</effect>-->
       <effect type="TechStatus" status="obtainable">DEPoliticianKnight</effect>
+      
     </effects>
   </tech>
   <tech name="altVeteranArquebus" type="Normal">
@@ -712,11 +714,11 @@
       </effect>
     </effects>
   </tech>
-  <tech name="altWarriorSocietyTlaxcalan" type="Normal">
+  <tech name="altWarriorSocietyTlaxcalan" type="Normal"> <!-- Flower War Veterans -->
     <dbid>60021</dbid>
     <displaynameid>804012</displaynameid>
-    <cost resourcetype="Wood">100.0000</cost>
-    <cost resourcetype="Gold">75.0000</cost>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>10.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -728,63 +730,78 @@
     <flag>DENativeUnitUpgrade</flag>
     <flag>DENoTextMessageIfFree</flag>
     <effects>
-      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+      <!-- Unit Upgrades -->
+      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">altTlaxcalanClubman</target>
       </effect>
-      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+      <effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">altTlaxcalanClubman</target>
       </effect>
-      <effect type="SetName" proto="altTlaxcalanClubman" culture="none" newname="804006">
-      </effect>
-      <effect type="SetName" proto="altTlaxcalanClubman" culture="none" newname="804010" reqtech="ImpLegendaryNativesShadow">
-      </effect>
-      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">altTlaxcalanElite</target>
       </effect>
-      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+      <effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">altTlaxcalanElite</target>
       </effect>
-      <effect type="SetName" proto="altTlaxcalanElite" culture="none" newname="804007">
+      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altTetzcocoWarrior</target>
       </effect>
-      <effect type="SetName" proto="altTlaxcalanElite" culture="none" newname="804011" reqtech="ImpLegendaryNativesShadow">
+      <effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altTetzcocoWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altOtomiSlinger</target>
+      </effect>
+      <effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altOtomiSlinger</target>
       </effect>
     </effects>
   </tech>
-  <tech name="altChampionTlaxcalan" type="Normal">
+  <tech name="altChampionTlaxcalan" type="Normal"> <!-- Temple of Mixcoatl -->
     <dbid>60022</dbid>
     <displaynameid>804013</displaynameid>
-    <cost resourcetype="Wood">400.0000</cost>
-    <cost resourcetype="Gold">300.0000</cost>
+    <cost resourcetype="Gold">750.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>10.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\tlaxcalan\TlaxcalanChampion.png</icon>
+    <icon>resources\tlaxcalan\mixcoatl.png</icon>
     <rollovertextid>804015</rollovertextid>
     <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <flag>UpgradeTech</flag>
     <flag>DENativeUnitUpgrade</flag>
     <flag>DENoTextMessageIfFree</flag>
     <effects>
-      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+      <effect type="Data" amount="1.2" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">altTlaxcalanClubman</target>
       </effect>
-      <effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
+      <effect type="Data" amount="1.2" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altTlaxcalanElite</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">altTlaxcalanClubman</target>
       </effect>
-      <effect type="SetName" proto="altTlaxcalanClubman" culture="none" newname="804008">
-      </effect>
-      <effect type="SetName" proto="altTlaxcalanClubman" culture="none" newname="804010" reqtech="ImpLegendaryNativesShadow">
-      </effect>
-      <effect type="Data" amount="1.35" subtype="Hitpoints" relativity="BasePercent">
+      <effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">altTlaxcalanElite</target>
       </effect>
-      <effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="BasePercent">
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="altTlaxcalanClubman" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="altTlaxcalanElite" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">altTlaxcalanClubman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">altTlaxcalanElite</target>
       </effect>
-      <effect type="SetName" proto="altTlaxcalanElite" culture="none" newname="804009">
+      <effect type="SetName" proto="altTlaxcalanClubman" culture="none" newname="804041">
       </effect>
-      <effect type="SetName" proto="altTlaxcalanElite" culture="none" newname="804011" reqtech="ImpLegendaryNativesShadow">
+      <effect type="SetName" proto="altTlaxcalanElite" culture="none" newname="804042">
       </effect>
     </effects>
   </tech>
@@ -800,43 +817,43 @@
     <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
     <flag>DEColonialMercShipment</flag>
     <effects>
-      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="11.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="xpMacehualtin" relativity="Absolute">
+      <effect tech="deCardIgnoreBuildLimit" type="Data" amount="11.00" subtype="FreeHomeCityUnitIfTechObtainable" unittype="altOtomiSlinger" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
     </effects>
   </tech>
-  <tech name="altOtontinAge3" type="Normal">
+  <tech name="altOtontinAge3" type="Normal"> <!-- Temple of Ehecatl (not in use)-->
     <dbid>60024</dbid>
     <displaynameid>804016</displaynameid>
-    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Gold">750.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\tlaxcalan\otontinAge3.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpMacehualtin" relativity="Absolute">
+      <effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="altOtomiSlinger" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
       <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">xpMacehualtin</target>
+        <target type="ProtoUnit">altOtomiSlinger</target>
       </effect>
       <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">xpMacehualtin</target>
+        <target type="ProtoUnit">altOtomiSlinger</target>
       </effect>
       <effect type="Data" action="VolleyRangedAttack" amount="3.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">xpMacehualtin</target>
+        <target type="ProtoUnit">altOtomiSlinger</target>
       </effect>
       <effect type="Data" action="DefendRangedAttack" amount="3.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">xpMacehualtin</target>
+        <target type="ProtoUnit">altOtomiSlinger</target>
       </effect>
       <effect type="Data" action="StaggerRangedAttack" amount="3.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">xpMacehualtin</target>
+        <target type="ProtoUnit">altOtomiSlinger</target>
       </effect>
       <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
-        <target type="ProtoUnit">xpMacehualtin</target>
+        <target type="ProtoUnit">altOtomiSlinger</target>
       </effect>
     </effects>
   </tech>
@@ -914,11 +931,11 @@
         <target type="ProtoUnit">Pikeman</target>
       </effect>
       <!-- Ship a large number of reinforcements -->
-      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
-      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
@@ -939,39 +956,83 @@
       <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">FishingBoat</target>
       </effect>
+      <!-- Disable training Standard Units? -->
+
+      <!-- Enable native scout  -->
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="NativeScout" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">NativeScout</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+        <target type="ProtoUnit">NativeScout</target>
+      </effect>
+
+      <!-- Sets the units for the Citadel -->
+      <effect type="CommandAdd" proto="altTlaxcalanClubman" page="0" column="0">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandAdd" proto="altTlaxcalanElite" page="0" column="1">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandAdd" proto="altOtomiSlinger" page="0" column="2">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandAdd" proto="altTetzcocoWarrior" page="0" column="3">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandRemove" proto="Crossbowman">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandRemove" proto="Pikeman">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandRemove" proto="Rodelero">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandRemove" proto="Falconet">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
     </effects>
   </tech>
-  <tech name="altOtontinAge3Rev" type="Normal">
+  <tech name="altOtontinAge3Rev" type="Normal"> <!-- Temple of Ehecatl-->
     <dbid>60027</dbid>
     <displaynameid>804016</displaynameid>
-    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Gold">750.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\tlaxcalan\otontinAge3.png</icon>
+    <icon>resources\tlaxcalan\ehecatl.png</icon>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="xpMacehualtin" relativity="Absolute">
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="altOtomiSlinger" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
-      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">xpMacehualtin</target>
+      <effect type="Data" amount="1.2" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altOtomiSlinger</target>
       </effect>
-      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">xpMacehualtin</target>
+      <effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altOtomiSlinger</target>
       </effect>
       <effect type="Data" action="VolleyRangedAttack" amount="3.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">xpMacehualtin</target>
+        <target type="ProtoUnit">altOtomiSlinger</target>
       </effect>
       <effect type="Data" action="DefendRangedAttack" amount="3.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">xpMacehualtin</target>
+        <target type="ProtoUnit">altOtomiSlinger</target>
       </effect>
       <effect type="Data" action="StaggerRangedAttack" amount="3.00" subtype="MaximumRange" relativity="Absolute">
-        <target type="ProtoUnit">xpMacehualtin</target>
+        <target type="ProtoUnit">altOtomiSlinger</target>
       </effect>
       <effect type="Data" amount="2.00" subtype="LOS" relativity="Absolute">
-        <target type="ProtoUnit">xpMacehualtin</target>
+        <target type="ProtoUnit">altOtomiSlinger</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">altOtomiSlinger</target>
+      </effect>
+      <effect type="SetName" proto="altOtomiSlinger" culture="none" newname="804040">
       </effect>
     </effects>
   </tech>
@@ -1012,7 +1073,7 @@
     <icon>resources\tlaxcalan\otontinAge2.png</icon>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="xpMacehualtin" relativity="Absolute">
+      <effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="altOtomiSlinger" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
@@ -1021,6 +1082,7 @@
   <tech name="altTlaxcalanEliteAge4Rev" type="Normal">
     <dbid>60030</dbid>
     <displaynameid>804019</displaynameid>
+    <cost resourcetype="Gold">250.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -1028,7 +1090,7 @@
     <rollovertextid>46994</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="altTlaxcalanElite" relativity="Absolute">
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="altTlaxcalanElite" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
@@ -1037,6 +1099,7 @@
   <tech name="altTlaxcalanClubmanAge4Rev" type="Normal">
     <dbid>60031</dbid>
     <displaynameid>804018</displaynameid>
+    <cost resourcetype="Gold">250.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -1053,6 +1116,7 @@
   <tech name="altTetzcocoAge4Rev" type="Normal">
     <dbid>60032</dbid>
     <displaynameid>804030</displaynameid>
+    <cost resourcetype="Gold">250.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -1060,7 +1124,7 @@
     <rollovertextid>804031</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
-      <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="altTetzcocoWarrior" relativity="Absolute">
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="altTetzcocoWarrior" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
@@ -1072,28 +1136,29 @@
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\mexicans\revolutions\kuchkabal.png</icon>
+    <icon>resources\tlaxcalan\nativevils.png</icon>
     <rollovertextid>804033</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">deREVNativeVillager</target>
       </effect>
-      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deREVNativeVillager" relativity="Absolute">
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deREVNativeVillager" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
     </effects>
   </tech>
-  <tech name="altTetzcocoTemple" type="Normal">
+  <tech name="altTetzcocoTemple" type="Normal"> <!-- Temple of Tloque Nahuaque -->
     <dbid>60034</dbid>
     <displaynameid>804034</displaynameid>
-    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Gold">750.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\tlaxcalan\otontinAge3.png</icon>
+    <icon>resources\tlaxcalan\tloque.png</icon>
     <rollovertextid>804035</rollovertextid>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="7.00" subtype="FreeHomeCityUnit" unittype="altTetzcocoWarrior" relativity="Absolute">
@@ -1106,10 +1171,221 @@
       <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">altTetzcocoWarrior</target>
       </effect>
-      <effect type="Data" amount="0.25" subtype="MaximumVelocity" relativity="Absolute">
+      <effect type="Data" amount="0.10" subtype="ArmorSpecific" newtype="Ranged" relativity="Absolute">
         <target type="ProtoUnit">altTetzcocoWarrior</target>
       </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">altTetzcocoWarrior</target>
+      </effect>
+      <effect type="SetName" proto="altTetzcocoWarrior" culture="none" newname="804043">
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altWarhutShipment" type="Normal">
+    <dbid>60035</dbid>
+    <displaynameid>804036</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\tlaxcalan\warhuts.png</icon>
+    <rollovertextid>804037</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">altTlaxcalanWarHut</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="altTlaxcalanBuilder" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altWarhutShipmentShadow" type="Normal">
+    <dbid>60036</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">altWarhutShipment</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">altTlaxcalanClubman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">altTlaxcalanElite</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altRevStdCortezPreTech" type="Normal">
+    <dbid>60037</dbid>
+    <displaynameid>804020</displaynameid>
+    <cost resourcetype="Food">1000.0000</cost>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\spanish2\cortesRev.png</icon>
+    <rollovertextid>804021</rollovertextid>
+    <revolutionciv>altRevCortes</revolutionciv>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>RevoltTech</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="InitiateRevolution" proto="none">
+      </effect>
+      <effect type="TechStatus" status="active">XPRevolution</effect>
+      <!-- Boost non-native unit stats -->
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altLancero</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altLancero</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altArquebusier</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altArquebusier</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altConquistador</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">altConquistador</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Rodelero</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Rodelero</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Crossbowman</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Crossbowman</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <!-- Ship a large number of reinforcements -->
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Crossbowman" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Pikeman" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Rodelero" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <!-- Disable Villagers -->
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="CommandRemove" proto="Settler">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="CommandRemove" proto="FishingBoat">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <!-- Disable training Standard Units? -->
 
+      <!-- Enable native scout  -->
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="NativeScout" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">NativeScout</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+        <target type="ProtoUnit">NativeScout</target>
+      </effect>
+
+      <!-- Sets the units for the Citadel -->
+      <effect type="CommandAdd" proto="altTlaxcalanClubman" page="0" column="0">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandAdd" proto="altTlaxcalanElite" page="0" column="1">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandAdd" proto="altOtomiSlinger" page="0" column="2">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandAdd" proto="altTetzcocoWarrior" page="0" column="3">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandRemove" proto="Crossbowman">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandRemove" proto="Pikeman">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandRemove" proto="Rodelero">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+      <effect type="CommandRemove" proto="Falconet">
+        <target type="ProtoUnit">deMayaCastle</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altRevNativeWarriors" type="Normal">
+    <dbid>60038</dbid>
+    <displaynameid>804046</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\spanish2\nativeallies.png</icon>
+    <rollovertextid>804047</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>YPIgnorePopCostBuildLimitFreeHCUnitIfTechObtainable</flag>
+    <effects>
+      <effect type="Data" amount="0.85" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractNativeWarrior</target>
+      </effect>
+      <effect type="TextOutput">69038</effect>
+      <effect type="Data" amount="0.85" subtype="Cost" resource="Gold" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractNativeWarrior</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="Cost" resource="Food" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractNativeWarrior</target>
+      </effect>
+      
+      <!-- Swap Unit build limits for a pop cost -->
+      <effect type="Data" amount="-1" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">altTlaxcalanClubman</target>
+      </effect>
+      <effect type="Data" amount="-1" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">altTlaxcalanElite</target>
+      </effect>
+      <effect type="Data" amount="-1" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">altTetzcocoWarrior</target>
+      </effect>
+      <effect type="Data" amount="-1" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">altOtomiSlinger</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Absolute">
+        <target type="ProtoUnit">altTlaxcalanClubman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Absolute">
+        <target type="ProtoUnit">altTlaxcalanElite</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Absolute">
+        <target type="ProtoUnit">altTetzcocoWarrior</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Absolute">
+        <target type="ProtoUnit">altOtomiSlinger</target>
+      </effect>
     </effects>
   </tech>
 

@@ -5,4 +5,6 @@
   </politicianmusketeerspanish2>
   <politiciancavalierspanish2 portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
   </politiciancavalierspanish2>
+  <altRevStdCortezPreTech portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/spanish2/politician_scuttle_fleet.png">
+  </altRevStdCortezPreTech>
 </politicianmods>

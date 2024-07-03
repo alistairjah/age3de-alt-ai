@@ -1958,7 +1958,7 @@
       <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
-    <card>
+    <!--<card>
       <name>altOtontinAge3</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1966,7 +1966,7 @@
       <age>2</age>
       <displayunitcount>15</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
-    </card>
+    </card>-->
 
     <!-- Revolt Cards -->
     <card>
@@ -1975,7 +1975,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>15</displayunitcount>
+      <displayunitcount>12</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1984,7 +1984,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
+      <age>3</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1993,7 +1993,8 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2003,7 +2004,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>12</displayunitcount>
+      <displayunitcount>16</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2013,7 +2014,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>14</displayunitcount>
+      <displayunitcount>12</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2033,7 +2034,7 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>14</displayunitcount>
+      <displayunitcount>12</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2051,8 +2052,27 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>3</age>
+      <age>2</age>
       <displayunitcount>7</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>altWarhutShipment</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>0</age>
+      <displayunitcount>2</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>altRevNativeWarriors</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2063,7 +2083,7 @@
       <maxcount>-1</maxcount>
       <level>0</level>
       <age>0</age>
-      <displayunitcount>8</displayunitcount>
+      <displayunitcount>6</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2082,6 +2102,25 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>0</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCAztecFort</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>HCXPShipWarCanoes3</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>4</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
@@ -2412,12 +2451,14 @@
         <card>HCXPPioneers2</card>
         <card>HCExoticHardwoods</card>
         <card>DEHCREVMXMayaJungleVillages</card>
-        <card>HCNativeWarriors</card>
-        <card>HCNativeTreaties</card>
+        <card>altRevNativeWarriors</card>
         <card>HCNativeLore</card>
         <card>HCXPShipMixedCrates5</card>
         <card>altTetzcocoTemple</card>
         <card>HCXPBloodBrothers</card>
+        <card>altWarhutShipment</card>
+        <card>DEHCAztecFort</card>
+        <card>HCXPShipWarCanoes3</card>
       </cards>
     </revoltdeck>
   </decks>
@@ -2592,9 +2633,9 @@
       <tech x="7.2" y="7.0">altTlaxcalanEliteAge3</tech>
       <tech x="7.2" y="7.0">altTlaxcalanEliteAge4</tech>
       <tech x="7.2" y="7.0">altTlaxcalanEliteAge4repeat</tech> 
-      <tech x="7.2" y="7.0">altRevCortezPreTech</tech>
+      <!--<tech x="7.2" y="7.0">altRevCortezPreTech</tech>-->
       <tech x="7.2" y="7.0">altOtontinAge2</tech>
-      <tech x="7.2" y="7.0">altOtontinAge3</tech>
+      <!--<tech x="7.2" y="7.0">altOtontinAge3</tech>-->
 
     </obtainabletechs>
     <activetechs>
@@ -2648,9 +2689,9 @@
       <tech x="7.2" y="7.0">altTlaxcalanEliteAge3</tech>
       <tech x="7.2" y="7.0">altTlaxcalanEliteAge4</tech>
       <tech x="7.2" y="7.0">altTlaxcalanEliteAge4repeat</tech>
-      <tech x="7.2" y="7.0">altRevCortezPreTech</tech>
+      <!--<tech x="7.2" y="7.0">altRevCortezPreTech</tech>-->
       <tech x="7.2" y="7.0">altOtontinAge2</tech>
-      <tech x="7.2" y="7.0">altOtontinAge3</tech>
+      <!--<tech x="7.2" y="7.0">altOtontinAge3</tech>-->
 
     </activetechs>
     <validunits>
