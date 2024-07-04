@@ -1,4 +1,5 @@
 <politicianmods>
+  <!-- Spanish 2 -->
   <politicianscoutspanish2 portraitfilename="ui\ingame\politicians\politician_scout" portraitfilenamewpf="resources/images/icons/politicians/politician_scout.png">
   </politicianscoutspanish2>
   <politicianmusketeerspanish2 portraitfilename="ui\ingame\politicians\politician_kings_musketeer" portraitfilenamewpf="resources/images/icons/politicians/politician_kings_musketeer.png">
@@ -7,4 +8,7 @@
   </politiciancavalierspanish2>
   <altRevStdCortezPreTech portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/spanish2/politician_scuttle_fleet.png">
   </altRevStdCortezPreTech>
+
+  <!-- Brazil -->
+   
 </politicianmods>
