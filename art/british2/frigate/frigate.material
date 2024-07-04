@@ -3,13 +3,13 @@
     <materialdef name="default">
     </materialdef>
     <parameters>
-      <texture name="BaseColor" override="homecity\british\frigate\textures\frigate_matA_BaseColor">
+      <texture name="BaseColor" override="british2\frigate\textures\frigate_matA_BaseColor">
       </texture>
       <texture name="Normals" override="homecity\british\frigate\textures\frigate_matA_Normals">
       </texture>
       <texture name="Masks" override="homecity\british\frigate\textures\frigate_matA_Masks">
       </texture>
-      <texture name="Details" override="homecity\british\frigate\textures\frigate_matA_Details">
+      <texture name="Details" override="british2\frigate\textures\frigate_matA_Details">
       </texture>
     </parameters>
     <parameters variant="1">
@@ -37,7 +37,7 @@
     <materialdef name="default_doublesided">
     </materialdef>
     <parameters>
-      <texture name="BaseColor" override="homecity\british\frigate\textures\frigate_matB_BaseColor">
+      <texture name="BaseColor" override="british2\frigate\textures\frigate_matB_BaseColor">
       </texture>
       <texture name="Normals" override="homecity\british\frigate\textures\frigate_matB_Normals">
       </texture>

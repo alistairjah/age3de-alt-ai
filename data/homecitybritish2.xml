@@ -810,7 +810,7 @@
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCUnlockFactory</prereqtech>
-      <age>3</age>
+      <age>2</age>
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
@@ -1068,6 +1068,14 @@
       <level>25</level>
       <prereqtech>HCAdmirality</prereqtech>
       <age>2</age>
+    </card>
+    <card>
+      <name>altHMSVictoryShipment</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <age>3</age>
+      <displayunitcount>1</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
       <name>DEHCRuleBritannia</name>
@@ -2641,6 +2649,7 @@
       <tech x="2.4" y="4.0">HCMonitorCombatTeam</tech>
       <tech x="3.1" y="1.0">HCAdmirality</tech>
       <tech x="2.6" y="1.0">HCCoastalDefensesTeam</tech>
+      <tech x="3.1" y="1.0">altHMSVictoryShipment</tech>
       <tech x="3.1" y="1.0">DEHCRuleBritannia</tech>
       <tech x="3.1" y="5.0">HCNavalGunners</tech>
       <tech x="4.1" y="3.0">DEHCMercsIrishBrigadiers</tech>
@@ -2674,6 +2683,7 @@
       <tech x="2.4" y="4.0">HCMonitorCombatTeam</tech>
       <tech x="3.1" y="1.0">HCAdmirality</tech>
       <tech x="2.6" y="1.0">HCCoastalDefensesTeam</tech>
+      <tech x="3.1" y="1.0">altHMSVictoryShipment</tech>
       <tech x="3.1" y="1.0">DEHCRuleBritannia</tech>
       <tech x="3.1" y="5.0">HCNavalGunners</tech>
       <tech x="4.1" y="3.0">DEHCMercsIrishBrigadiers</tech>

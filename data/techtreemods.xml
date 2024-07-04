@@ -1802,7 +1802,35 @@
       </effect>
     </effects>
   </tech>
+  <tech name="altHMSVictoryShipment" type="Normal">
+    <dbid>60109</dbid>
+    <displaynameid>802012</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\british2\hmsVictoryicon.png</icon>
+    <rollovertextid>802015</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>DEIndustrialMercShipment</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="altHMSVictory" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">altSixthRate</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Frigate</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deMercBattleship</target>
+      </effect>
+      <effect type="TextOutput">802014</effect>
+    </effects>
+  </tech>
 
   <!-- Brazil: <leader> -->
-   
+
 </techtreemods>
