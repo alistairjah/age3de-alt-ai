@@ -39,10 +39,10 @@
       <string _locid="500006">Paris</string>
       <string _locid="500007">French (Enjolras)</string>
 
-      <string _locid="500008">King George</string>
+      <string _locid="500008">King George III</string>
       <string _locid="500009">[Insert King George description here]</string>
       <string _locid="500010">London</string>
-      <string _locid="500011">British (King George)</string>
+      <string _locid="500011">British (King George III)</string>
 
       <string _locid="500012">Peter the Great</string>
       <string _locid="500013">[Insert Peter the Great description here]</string>
@@ -132,7 +132,23 @@
       <string _locid="804045">alt Otomi Slinger</string> 
       <string _locid="804046">Altepetl Alliances</string>
       <string _locid="804047">All native warriors are less expensive, and auxiliary warriors are incorporated into your main force by replacing their build limit with a population cost.</string>
-      
+      <string _locid="804048">Ships a number of native auxiliaries.</string>
+
+
+      <!-- British 2 -->
+      <string _locid="802000">King George III</string>
+      <string _locid="802001">[Insert George description here]</string>
+      <string _locid="802002">London</string>
+      <string _locid="802003">British (King George III)</string>
+      <string _locid="802004">Sixth Rate</string>
+      <string _locid="802005">alt Sixth Rate</string>
+      <string _locid="802006">Smaller rated than a typical frigate, the sixth rate is still useful for convoy duties and escorts.</string>
+      <string _locid="802007">6 Rangers</string>
+      <string _locid="802008">8 Rangers</string>
+      <string _locid="802009">15 Rangers</string>
+      <string _locid="802010">10 Rangers</string>
+      <string _locid="802011">Industrial Revolution</string>
+
 
     </language>
   </stringtable>

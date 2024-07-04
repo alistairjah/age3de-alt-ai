@@ -285,7 +285,7 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>HCShipLongbowmen1</name>
+      <name>altShipRangers1</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -293,62 +293,26 @@
       <displayunitcount>6</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
+
     <card>
-      <name>HCShipLongbowmenRepeat</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>HCShipLongbowmen1</prereqtech>
-      <age>2</age>
-      <displayunitcount>8</displayunitcount>
-    </card>
-    <card>
-      <name>HCShipLongbowmen3</name>
+      <name>altShipRangers3</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipLongbowmen2</prereqtech>
+      <prereqtech>altShipRangers2</prereqtech>
       <age>3</age>
       <displayunitcount>15</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipLongbowmen4</name>
+      <name>altShipRangers4</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipLongbowmen3</prereqtech>
+      <prereqtech>altShipRangers3</prereqtech>
       <age>2</age>
       <displayunitcount>10</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
-    <card>
-      <name>HCShipLongbowmen5</name>
-      <maxcount>1</maxcount>
-      <level>40</level>
-      <prereqtech>HCShipLongbowmen4</prereqtech>
-      <age>3</age>
-      <displayunitcount>20</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>HCImprovedLongbows</name>
-      <maxcount>1</maxcount>
-      <level>25</level>
-      <prereqtech>HCShipLongbowmen4</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
-      <name>DEHCSiegeArchery</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>2</age>
-    </card>
-    <card>
-      <name>DEHCRangers</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-    </card>
+
     <card>
       <name>DEHCShipRangers1</name>
       <maxcount>1</maxcount>
@@ -842,7 +806,7 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>HCRobberBarons</name>
+      <name>altIndustrialRevolution</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>HCUnlockFactory</prereqtech>
@@ -1056,7 +1020,7 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>HCShipCaravels1</name>
+      <name>DEHCShipSloopsRepeat1</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -1065,10 +1029,10 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipCaravels2</name>
+      <name>DEHCShipSloops1</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipCaravels1</prereqtech>
+      <prereqtech>DEHCShipSloopsRepeat1</prereqtech>
       <age>1</age>
       <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1077,7 +1041,7 @@
       <name>HCShipGalleons</name>
       <maxcount>1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipCaravels1</prereqtech>
+      <prereqtech>DEHCShipSloopsRepeat1</prereqtech>
       <age>1</age>
       <displayunitcount>1</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1920,7 +1884,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
-      <bindtotech>HCRobberBarons</bindtotech>
+      <bindtotech>altIndustrialRevolution</bindtotech>
       <age>3</age>
       <displayunitcount>1</displayunitcount>
       <revoltcard>
@@ -2010,7 +1974,7 @@
       </default>
       <cards>
         <card dbid="625">HCUnlockFactory</card>
-        <card dbid="2031">HCRobberBarons</card>
+        <card dbid="2031">altIndustrialRevolution</card>
         <card dbid="3382">HCXPAdvancedBalloon</card>
         <card dbid="3465">HCXPShipRocketsRepeat</card>
         <card dbid="2041">HCRefrigeration</card>
@@ -2023,7 +1987,7 @@
         <card dbid="2212">HCShipWoodCrates3</card>
         <card dbid="2211">HCShipWoodCrates2</card>
         <card dbid="2215">HCShipCoinCrates3</card>
-        <card dbid="2309">HCShipLongbowmen1</card>
+        <card dbid="2309">altShipRangers1</card>
         <card dbid="2187">HCShipMusketeers1</card>
         <card dbid="2637">HCShipGrenadiers3</card>
         <card dbid="2192">HCShipFalconets1</card>
@@ -2032,7 +1996,6 @@
         <card dbid="2220">HCShipCows</card>
         <card dbid="2571">HCFrontierDefenses</card>
         <card dbid="1688">HCHeavyFortifications</card>
-        <card dbid="8536">DEHCSiegeArchery</card>
         <card dbid="8535">DEHCGreenwichTime</card>
       </cards>
     </deck>
@@ -2047,7 +2010,7 @@
         <card dbid="2316">HCMusketeerGrenadierHitpointsBritishTeam</card>
         <card dbid="2216">HCShipCoinCrates4</card>
         <card dbid="2083">HCMusketeerGrenadierCombatBritish</card>
-        <card dbid="2031">HCRobberBarons</card>
+        <card dbid="2031">altIndustrialRevolution</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="2075">HCCheaperManors</card>
         <card dbid="2447">HCRumDistilleryTeam</card>
@@ -2076,7 +2039,7 @@
         <card dbid="2215">HCShipCoinCrates3</card>
         <card dbid="2316">HCMusketeerGrenadierHitpointsBritishTeam</card>
         <card dbid="2083">HCMusketeerGrenadierCombatBritish</card>
-        <card dbid="2031">HCRobberBarons</card>
+        <card dbid="2031">altIndustrialRevolution</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="2236">HCShipFalconets3</card>
         <card dbid="814">HCUnlockFort</card>
@@ -2084,7 +2047,7 @@
         <card dbid="2225">HCNavalCombat</card>
         <card dbid="2323">HCNavalGunners</card>
         <card dbid="2223">HCShipFrigates</card>
-        <card dbid="2221">HCShipCaravels2</card>
+        <card dbid="2221">DEHCShipSloops1</card>
         <card dbid="2091">HCExoticHardwoods</card>
         <card dbid="1688">HCHeavyFortifications</card>
         <card dbid="2597">HCShipMonitors2</card>
@@ -2104,7 +2067,7 @@
         <card dbid="1796">HCAdvancedTradingPost</card>
         <card dbid="3440">HCXPDistributivism</card>
         <card dbid="625">HCUnlockFactory</card>
-        <card dbid="2031">HCRobberBarons</card>
+        <card dbid="2031">altIndustrialRevolution</card>
         <card dbid="2213">HCShipWoodCrates4</card>
         <card dbid="2216">HCShipCoinCrates4</card>
         <card dbid="2567">HCShipSettlers5</card>
@@ -2129,7 +2092,7 @@
     <deck version="11">
       <name>$$90974$$TreatyNoNat</name>
       <cards>
-        <card dbid="2031">HCRobberBarons</card>
+        <card dbid="2031">altIndustrialRevolution</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="2102">HCTextileMills</card>
         <card dbid="2041">HCRefrigeration</card>
@@ -2149,8 +2112,6 @@
         <card dbid="2607">HCStockyards</card>
         <card dbid="3367">HCXPRanching</card>
         <card dbid="2447">HCRumDistilleryTeam</card>
-        <card dbid="2078">HCImprovedLongbows</card>
-        <card dbid="8536">DEHCSiegeArchery</card>
         <card dbid="2315">HCMusketeerGrenadierDamageBritish</card>
         <card dbid="3465">HCXPShipRocketsRepeat</card>
         <card dbid="3427">HCXPCherokeeAlliesRepeat</card>
@@ -2159,7 +2120,7 @@
     <deck version="11">
       <name>$$90975$$TreatyNative</name>
       <cards>
-        <card dbid="2031">HCRobberBarons</card>
+        <card dbid="2031">altIndustrialRevolution</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="2102">HCTextileMills</card>
         <card dbid="2041">HCRefrigeration</card>
@@ -2179,8 +2140,6 @@
         <card dbid="3367">HCXPRanching</card>
         <card dbid="2447">HCRumDistilleryTeam</card>
         <card dbid="1847">HCNativeWarriors</card>
-        <card dbid="2078">HCImprovedLongbows</card>
-        <card dbid="8536">DEHCSiegeArchery</card>
         <card dbid="2316">HCMusketeerGrenadierHitpointsBritishTeam</card>
         <card dbid="3465">HCXPShipRocketsRepeat</card>
         <card dbid="2315">HCMusketeerGrenadierDamageBritish</card>
@@ -2424,12 +2383,9 @@
     <obtainabletechs>
       <tech x="0.0" y="2.0">DEHCShipPikemenBritish</tech>
       <tech x="0.0" y="2.0">HCShipPikemen2</tech>
-      <tech x="0.7" y="1.0">HCShipLongbowmen1</tech>
-      <tech x="0.7" y="2.0">HCShipLongbowmenRepeat</tech>
-      <tech x="0.7" y="3.0">HCShipLongbowmen3</tech>
-      <tech x="0.7" y="4.0">HCShipLongbowmen4</tech>
-      <tech x="1.2" y="7.0">HCShipLongbowmen5</tech>
-      <tech x="0.0" y="5.0">HCImprovedLongbows</tech>
+      <tech x="0.7" y="1.0">altShipRangers1</tech>
+      <tech x="0.7" y="3.0">altShipRangers3</tech>
+      <tech x="0.7" y="4.0">altShipRangers4</tech>
       <tech x="0.0" y="5.0">DEHCShipRangers1</tech>
       <tech x="0.0" y="5.0">DEHCShipRangers2</tech>
       <tech x="2.0" y="1.0">HCShipMusketeers1</tech>
@@ -2462,18 +2418,13 @@
       <tech x="6.5" y="3.0">HCShipMortars2</tech>
       <tech x="7.2" y="5.0">HCShipRockets2</tech>
       <tech x="7.2" y="7.0">HCXPShipRocketsRepeat</tech>
-      <tech x="7.2" y="7.0">DEHCRangers</tech>
-      <tech x="7.2" y="7.0">DEHCSiegeArchery</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.0" y="2.0">DEHCShipPikemenBritish</tech>
       <tech x="0.0" y="2.0">HCShipPikemen2</tech>
-      <tech x="0.7" y="1.0">HCShipLongbowmen1</tech>
-      <tech x="0.7" y="2.0">HCShipLongbowmenRepeat</tech>
-      <tech x="0.7" y="3.0">HCShipLongbowmen3</tech>
-      <tech x="0.7" y="4.0">HCShipLongbowmen4</tech>
-      <tech x="1.2" y="7.0">HCShipLongbowmen5</tech>
-      <tech x="0.0" y="5.0">HCImprovedLongbows</tech>
+      <tech x="0.7" y="1.0">altShipRangers1</tech>
+      <tech x="0.7" y="3.0">altShipRangers3</tech>
+      <tech x="0.7" y="4.0">altShipRangers4</tech>
       <tech x="0.0" y="5.0">DEHCShipRangers1</tech>
       <tech x="0.0" y="5.0">DEHCShipRangers2</tech>
       <tech x="2.0" y="1.0">HCShipMusketeers1</tech>
@@ -2506,8 +2457,6 @@
       <tech x="6.5" y="3.0">HCShipMortars2</tech>
       <tech x="7.2" y="5.0">HCShipRockets2</tech>
       <tech x="7.2" y="7.0">HCXPShipRocketsRepeat</tech>
-      <tech x="7.2" y="7.0">DEHCRangers</tech>
-      <tech x="7.2" y="7.0">DEHCSiegeArchery</tech>
     </activetechs>
     <validunits>
     </validunits>
@@ -2559,7 +2508,7 @@
       <tech x="6.7" y="3.0">HCCheapDocksTeam</tech>
       <tech x="6.7" y="4.0">HCAdvancedDock</tech>
       <tech x="7.4" y="1.0">HCUnlockFactory</tech>
-      <tech x="7.4" y="3.0">HCRobberBarons</tech>
+      <tech x="7.4" y="3.0">altIndustrialRevolution</tech>
       <tech x="3.4" y="7.0">DEHCGreenwichTime</tech>
     </obtainabletechs>
     <activetechs>
@@ -2592,7 +2541,7 @@
       <tech x="6.7" y="3.0">HCCheapDocksTeam</tech>
       <tech x="6.7" y="4.0">HCAdvancedDock</tech>
       <tech x="7.4" y="1.0">HCUnlockFactory</tech>
-      <tech x="7.4" y="3.0">HCRobberBarons</tech>
+      <tech x="7.4" y="3.0">altIndustrialRevolution</tech>
       <tech x="3.4" y="7.0">DEHCGreenwichTime</tech>
     </activetechs>
     <validunits>
@@ -2682,8 +2631,8 @@
     <displaynamestringid>35745</displaynamestringid>
     <rolloverstringid>35746</rolloverstringid>
     <obtainabletechs>
-      <tech x="1.3" y="1.0">HCShipCaravels1</tech>
-      <tech x="1.0" y="2.0">HCShipCaravels2</tech>
+      <tech x="1.3" y="1.0">DEHCShipSloopsRepeat1</tech>
+      <tech x="1.0" y="2.0">DEHCShipSloops1</tech>
       <tech x="1.7" y="2.0">HCShipGalleons</tech>
       <tech x="1.7" y="3.0">HCShipFrigates</tech>
       <tech x="1.0" y="4.0">HCNavalCombat</tech>
@@ -2715,8 +2664,8 @@
       <tech x="7.0" y="5.0">HCPrivateers3</tech>
     </obtainabletechs>
     <activetechs>
-      <tech x="1.3" y="1.0">HCShipCaravels1</tech>
-      <tech x="1.0" y="2.0">HCShipCaravels2</tech>
+      <tech x="1.3" y="1.0">DEHCShipSloopsRepeat1</tech>
+      <tech x="1.0" y="2.0">DEHCShipSloops1</tech>
       <tech x="1.7" y="2.0">HCShipGalleons</tech>
       <tech x="1.7" y="3.0">HCShipFrigates</tech>
       <tech x="1.0" y="4.0">HCNavalCombat</tech>
