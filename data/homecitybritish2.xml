@@ -513,7 +513,7 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipFalconets1</name>
+      <name>altInfHorseArtilleryAge3</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -522,10 +522,10 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCShipFalconets2</name>
+      <name>altInfHorseArtilleryAge4</name>
       <maxcount>-1</maxcount>
       <level>0</level>
-      <prereqtech>HCShipFalconets1</prereqtech>
+      <prereqtech>altInfHorseArtilleryAge3</prereqtech>
       <age>3</age>
       <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -534,13 +534,13 @@
       <name>HCShipFalconets3</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>HCShipFalconets2</prereqtech>
+      <prereqtech>altInfHorseArtilleryAge4</prereqtech>
       <age>2</age>
       <displayunitcount>2</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCAdvancedArtillery</name>
+      <name>altModernArtillery</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -584,19 +584,9 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>HCXPShipHorseArtillery1</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <displayunitcount>2</displayunitcount>
-      <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
       <name>HCXPShipHorseArtillery2</name>
       <maxcount>1</maxcount>
       <level>40</level>
-      <prereqtech>HCXPShipHorseArtillery1</prereqtech>
       <age>3</age>
       <displayunitcount>3</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
@@ -1998,7 +1988,7 @@
         <card dbid="2309">altShipRangers1</card>
         <card dbid="2187">HCShipMusketeers1</card>
         <card dbid="2637">HCShipGrenadiers3</card>
-        <card dbid="2192">HCShipFalconets1</card>
+        <card dbid="2192">altInfHorseArtilleryAge3</card>
         <card dbid="2567">HCShipSettlers5</card>
         <card dbid="814">HCUnlockFort</card>
         <card dbid="2220">HCShipCows</card>
@@ -2416,12 +2406,11 @@
       <tech x="5.1" y="2.0">HCShipGrenadiers2</tech>
       <tech x="5.1" y="3.0">HCShipGrenadiers3</tech>
       <tech x="5.1" y="4.0">HCXPShipGrenadiersRepeat</tech>
-      <tech x="5.8" y="1.0">HCShipFalconets1</tech>
-      <tech x="5.8" y="2.0">HCShipFalconets2</tech>
+      <tech x="5.8" y="1.0">altInfHorseArtilleryAge3</tech>
+      <tech x="5.8" y="2.0">altInfHorseArtilleryAge4</tech>
       <tech x="5.8" y="3.0">HCShipFalconets3</tech>
-      <tech x="5.8" y="4.0">HCXPShipHorseArtillery1</tech>
       <tech x="5.8" y="7.0">HCXPShipHorseArtillery2</tech>
-      <tech x="6.5" y="1.0">HCAdvancedArtillery</tech>
+      <tech x="6.5" y="1.0">altModernArtillery</tech>
       <tech x="6.5" y="2.0">HCShipMortars1</tech>
       <tech x="6.5" y="3.0">HCShipMortars2</tech>
       <tech x="7.2" y="5.0">HCShipRockets2</tech>
@@ -2455,12 +2444,11 @@
       <tech x="5.1" y="2.0">HCShipGrenadiers2</tech>
       <tech x="5.1" y="3.0">HCShipGrenadiers3</tech>
       <tech x="5.1" y="4.0">HCXPShipGrenadiersRepeat</tech>
-      <tech x="5.8" y="1.0">HCShipFalconets1</tech>
-      <tech x="5.8" y="2.0">HCShipFalconets2</tech>
+      <tech x="5.8" y="1.0">altInfHorseArtilleryAge3</tech>
+      <tech x="5.8" y="2.0">altInfHorseArtilleryAge4</tech>
       <tech x="5.8" y="3.0">HCShipFalconets3</tech>
-      <tech x="5.8" y="4.0">HCXPShipHorseArtillery1</tech>
       <tech x="5.8" y="7.0">HCXPShipHorseArtillery2</tech>
-      <tech x="6.5" y="1.0">HCAdvancedArtillery</tech>
+      <tech x="6.5" y="1.0">altModernArtillery</tech>
       <tech x="6.5" y="2.0">HCShipMortars1</tech>
       <tech x="6.5" y="3.0">HCShipMortars2</tech>
       <tech x="7.2" y="5.0">HCShipRockets2</tech>

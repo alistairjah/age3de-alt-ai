@@ -1110,8 +1110,8 @@
     <animfile>british2\frigate\frigate.xml</animfile>
     <impacttype>Wood</impacttype>
     <physicsinfo>house</physicsinfo>
-    <icon>resources\art\units\naval\frigate\frigate_icon.png</icon>
-    <portraiticon>resources\art\units\naval\frigate\frigate_icon_portrait.png</portraiticon>
+    <icon>resources\british2\sixthrateicon.png</icon>
+    <portraiticon>resources\british2\sixthrate.png</portraiticon>
     <rollovertextid>27683</rollovertextid>
     <shortrollovertextid>27682</shortrollovertextid>
     <legacyhotkeycontext>BuildAccel</legacyhotkeycontext>
@@ -1124,8 +1124,8 @@
     <buildlimit>3</buildlimit>
     <bounty>100.0000</bounty>
     <buildbounty>100.0000</buildbounty>
-    <cost resourcetype="Wood">400.0000</cost>
-    <cost resourcetype="Gold">400.0000</cost>
+    <cost resourcetype="Wood">375.0000</cost>
+    <cost resourcetype="Gold">375.0000</cost>
     <maxcontained>50</maxcontained>
     <allowedage>1</allowedage>
     <armor type="Ranged" value="0.7500">
@@ -1181,7 +1181,7 @@
       <name>BroadsideAttack</name>
       <damage>35.000000</damage>
       <damagetype>Siege</damagetype>
-      <maxrange>30.000000</maxrange>
+      <maxrange>28.000000</maxrange>
       <rof>0.050000</rof>
       <damagecap>80.000000</damagecap>
       <damagebonus type="Ship">2.000000</damagebonus>
@@ -1190,9 +1190,9 @@
     </protoaction>
     <protoaction>
       <name>RangedAttack</name>
-      <damage>80.000000</damage>
+      <damage>70.000000</damage>
       <damagetype>Siege</damagetype>
-      <maxrange>30.000000</maxrange>
+      <maxrange>28.000000</maxrange>
       <rof>2.000000</rof>
       <damagecap>180.000000</damagecap>
       <damagebonus type="AbstractArtillery">0.500000</damagebonus>
@@ -1201,9 +1201,9 @@
     </protoaction>
     <protoaction>
       <name>RangedAttackContained</name>
-      <damage>80.000000</damage>
+      <damage>70.000000</damage>
       <damagetype>Siege</damagetype>
-      <maxrange>30.000000</maxrange>
+      <maxrange>28.000000</maxrange>
       <rof>2.000000</rof>
       <damagecap>180.000000</damagecap>
       <damagebonus type="AbstractArtillery">0.500000</damagebonus>
