@@ -1426,7 +1426,7 @@
       </effect>
       <effect type="TechStatus" status="obtainable">VeteranHussars</effect>
       <effect type="TechStatus" status="obtainable">ChurchStandingArmy</effect>
-      <effect type="TechStatus" status="obtainable">ChurchThinRedLine</effect>
+      <effect type="TechStatus" status="active">ChurchThinRedLine</effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Sheep</target>
       </effect>
@@ -1493,8 +1493,8 @@
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Market</target>
       </effect>
-      <effect type="TechStatus" status="obtainable">DEChurchRogersRangers</effect>
-      <effect type="TechStatus" status="obtainable">ChurchRogersRangers</effect>
+      <effect type="TechStatus" status="obtainable">altLoyalistVolunteers</effect>
+      <effect type="TechStatus" status="obtainable">altKingsAmericanCompany</effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Arsenal</target>
       </effect>
@@ -1896,6 +1896,88 @@
         <target type="Player">
         </target>
       </effect>
+    </effects>
+  </tech>
+  <tech name="altLoyalistVolunteers" type="Normal">
+    <dbid>60114</dbid>
+    <displaynameid>802019</displaynameid>
+    <cost resourcetype="Food">600.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\british2\loyalists.png</icon>
+    <rollovertextid>802020</rollovertextid>
+    <flag>UniqueTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Colonialize</techstatus>
+      <techstatus status="Active">HCRoyalDecreeBritish</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="DEVeteranStateMilitia" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="CommandAdd" proto="DEVeteranStateMilitia" page="0" column="0">
+        <target type="ProtoUnit">FortFrontier</target>
+      </effect>
+      <effect type="TechStatus" status="active">DEVeteranStateMilitia</effect>
+    </effects>
+  </tech>
+  <tech name="altKingsAmericanCompany" type="Normal">
+    <dbid>60115</dbid>
+    <displaynameid>802021</displaynameid>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>15.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\british2\americancompany.png</icon>
+    <rollovertextid>802022</rollovertextid>
+    <flag>UniqueTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">HCRoyalDecreeBritish</techstatus>
+      <techstatus status="Active">altLoyalistVolunteers</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="25.00" subtype="FreeHomeCityUnit" unittype="deRegular" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="CommandAdd" proto="deRegular" page="0" column="0">
+        <target type="ProtoUnit">FortFrontier</target>
+      </effect>
+      <effect type="TechStatus" status="active">DEVeteranUSRegulars</effect>
+    </effects>
+  </tech>
+  <tech name="altOrderofStPatrick" type="Normal">
+    <dbid>60116</dbid>
+    <displaynameid>802023</displaynameid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\british2\stpatrick.png</icon>
+    <rollovertextid>802024</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="CommandAdd" proto="deMercBrigadier" page="2" column="3">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="CommandAdd" proto="deMercBrigadier" page="2" column="3">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
+      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="deMercBrigadier" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">deMercBrigadier</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deMercBrigadier</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
 

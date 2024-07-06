@@ -63,6 +63,10 @@
         <tech row="0" page="1" column="2">altGuardConquistador</tech>
         <tech row="0" page="1" column="2">altImperialConquistador</tech>
     </unit>
+    <unit id="301" name="Church">
+      <tech row="0" page="1" column="10">altLoyalistVolunteers</tech>
+      <tech row="0" page="1" column="10">altKingsAmericanCompany</tech>
+    </unit>
 
 
 <!-- Spanish2: Cortes -->
