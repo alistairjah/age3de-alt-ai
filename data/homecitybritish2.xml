@@ -1037,6 +1037,22 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>altShipSixthRate</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <age>1</age>
+      <displayunitcount>1</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>altArmedBoat</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <age>2</age>
+      <displayunitcount>1</displayunitcount>
+      <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
       <name>HCShipFrigates</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -1120,6 +1136,13 @@
       <age>1</age>
       <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
+    </card>
+    <card>
+      <name>altOrderofStPatrick</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <age>2</age>
+      <displayunitcount>14</displayunitcount>
     </card>
     <card>
       <name>HCMercsHighland</name>
@@ -2630,6 +2653,8 @@
       <tech x="1.3" y="1.0">DEHCShipSloopsRepeat1</tech>
       <tech x="1.0" y="2.0">DEHCShipSloops1</tech>
       <tech x="1.7" y="2.0">HCShipGalleons</tech>
+      <tech x="1.7" y="2.0">altShipSixthRate</tech>
+      <tech x="1.7" y="2.0">altArmedBoat</tech>
       <tech x="1.7" y="3.0">HCShipFrigates</tech>
       <tech x="1.0" y="4.0">HCNavalCombat</tech>
       <tech x="1.7" y="4.0">HCShipMonitors</tech>
@@ -2643,6 +2668,7 @@
       <tech x="4.1" y="3.0">DEHCMercsIrishBrigadiers</tech>
       <tech x="4.1" y="3.0">YPHCMercsJatLancer1</tech>
       <tech x="4.1" y="4.0">HCMercsHackapells</tech>
+      <tech x="4.1" y="4.0">altOrderofStPatrick</tech>
       <tech x="4.1" y="4.0">HCMercsHighlanders</tech>
       <tech x="5.5" y="3.0">HCMercsHessians</tech>
       <tech x="5.5" y="4.0">HCMercsHessians2</tech>
@@ -2664,6 +2690,8 @@
       <tech x="1.3" y="1.0">DEHCShipSloopsRepeat1</tech>
       <tech x="1.0" y="2.0">DEHCShipSloops1</tech>
       <tech x="1.7" y="2.0">HCShipGalleons</tech>
+      <tech x="1.7" y="2.0">altShipSixthRate</tech>
+      <tech x="1.7" y="2.0">altArmedBoat</tech>
       <tech x="1.7" y="3.0">HCShipFrigates</tech>
       <tech x="1.0" y="4.0">HCNavalCombat</tech>
       <tech x="1.7" y="4.0">HCShipMonitors</tech>
@@ -2677,6 +2705,7 @@
       <tech x="4.1" y="3.0">DEHCMercsIrishBrigadiers</tech>
       <tech x="4.1" y="3.0">YPHCMercsJatLancer1</tech>
       <tech x="4.1" y="4.0">HCMercsHackapells</tech>
+      <tech x="4.1" y="4.0">altOrderofStPatrick</tech>
       <tech x="4.1" y="4.0">HCMercsHighlanders</tech>
       <tech x="5.5" y="3.0">HCMercsHessians</tech>
       <tech x="5.5" y="4.0">HCMercsHessians2</tech>

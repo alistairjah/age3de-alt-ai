@@ -45,10 +45,10 @@
         <train row="0" page="0" column="4">altArquebusier</train>
         <tech row="0" page="1" column="4">altVeteranArquebus</tech>
       <!-- British 2 -->
-        <train row="0" page="0" column="1">deRanger</train>
-        <tech row="0" page="1" column="1">altVeteranRangers</tech>
-        <tech row="0" page="1" column="1">altGuardRangers</tech>
-        <tech row="0" page="1" column="1">altImperialRangers</tech>
+        <train row="0" page="0" column="5">deRanger</train>
+        <tech row="0" page="1" column="5">altVeteranRangers</tech>
+        <tech row="0" page="1" column="5">altGuardRangers</tech>
+        <tech row="0" page="1" column="5">altImperialRangers</tech>
     </unit>
     <unit id="297" name="Dock">
       <dbid>23</dbid>
@@ -1116,8 +1116,8 @@
     <physicsinfo>house</physicsinfo>
     <icon>resources\british2\sixthrateicon.png</icon>
     <portraiticon>resources\british2\sixthrate.png</portraiticon>
-    <rollovertextid>27683</rollovertextid>
-    <shortrollovertextid>27682</shortrollovertextid>
+    <rollovertextid>802006</rollovertextid>
+    <shortrollovertextid>802033</shortrollovertextid>
     <legacyhotkeycontext>BuildAccel</legacyhotkeycontext>
     <initialhitpoints>1600.0000</initialhitpoints>
     <maxhitpoints>1600.0000</maxhitpoints>

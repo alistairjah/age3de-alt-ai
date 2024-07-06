@@ -161,9 +161,15 @@
       <string _locid="802022">Ships American Regulars still loyal to the crown.</string>
       <string _locid="802023">Order of St. Patrick</string>
       <string _locid="802024">Ships a number of Irish Brigadiers and allows them to be trained from barracks.</string>
-
-
-
+      <string _locid="802025">Armed Boat Company</string>
+      <string _locid="802026">Ships one Sixth Rate and allows Frigates and Sixth Rates to train infantry.</string>
+      <string _locid="802027">Veteran Rangers</string>
+      <string _locid="802028">Ranger attack and hitpoints increased.</string>
+      <string _locid="802029">Guard Rangers</string>
+      <string _locid="802030">Ranger attack and hitpoints increased.</string>
+      <string _locid="802031">Imperial Rangers</string>
+      <string _locid="802032">Ranger attack and hitpoints increased.</string>
+      <string _locid="802033">Smaller rated than a typical frigate.</string>
 
 
 

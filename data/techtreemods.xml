@@ -1633,10 +1633,11 @@
     <dbid>60101</dbid>
     <cost resourcetype="Wood">200.0000</cost>
     <cost resourcetype="Gold">200.0000</cost>
+    <displaynameid>802027</displaynameid>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\veteran_infantry\veteran_infantry.png</icon>
-    <rollovertextid>22851</rollovertextid>
+    <rollovertextid>802028</rollovertextid>
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
@@ -1661,10 +1662,11 @@
     <dbid>60102</dbid>
     <cost resourcetype="Wood">600.0000</cost>
     <cost resourcetype="Gold">600.0000</cost>
+    <displaynameid>802029</displaynameid>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
-    <rollovertextid>22851</rollovertextid>
+    <rollovertextid>802030</rollovertextid>
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
@@ -1690,10 +1692,11 @@
     <dbid>60103</dbid>
     <cost resourcetype="Wood">1500.0000</cost>
     <cost resourcetype="Gold">1500.0000</cost>
+    <displaynameid>802031</displaynameid>
     <researchpoints>30.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
-    <rollovertextid>22851</rollovertextid>
+    <rollovertextid>802032</rollovertextid>
     <flag>UpgradeTech</flag>
     <flag>CountsTowardMilitaryScore</flag>
     <prereqs>
@@ -1800,6 +1803,7 @@
       <effect type="Data" amount="0.00" tactic="Cannon" subtype="TacticEnable" relativity="Absolute">
         <target type="ProtoUnit">Factory</target>
       </effect>
+      <effect type="TechStatus" status="obtainable">altFactoryCannonEnableShadow</effect>
     </effects>
   </tech>
   <tech name="altHMSVictoryShipment" type="Normal">
@@ -1885,7 +1889,7 @@
   </tech>
   <tech name="altShipSixthRate" type="Normal">
     <dbid>60113</dbid>
-    <displaynameid>35724</displaynameid>
+    <displaynameid>802004</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -1913,11 +1917,11 @@
       <techstatus status="Active">HCRoyalDecreeBritish</techstatus>
     </prereqs>
     <effects>
-      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="DEVeteranStateMilitia" relativity="Absolute">
+      <effect type="Data" amount="10.00" subtype="FreeHomeCityUnit" unittype="deStateMilitia" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
-      <effect type="CommandAdd" proto="DEVeteranStateMilitia" page="0" column="0">
+      <effect type="CommandAdd" proto="deStateMilitia" page="0" column="0">
         <target type="ProtoUnit">FortFrontier</target>
       </effect>
       <effect type="TechStatus" status="active">DEVeteranStateMilitia</effect>
@@ -1953,7 +1957,7 @@
   <tech name="altOrderofStPatrick" type="Normal">
     <dbid>60116</dbid>
     <displaynameid>802023</displaynameid>
-    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Gold">750.0000</cost>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>60.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -1967,7 +1971,7 @@
       <effect type="CommandAdd" proto="deMercBrigadier" page="2" column="3">
         <target type="ProtoUnit">Blockhouse</target>
       </effect>
-      <effect type="Data" amount="12.00" subtype="FreeHomeCityUnit" unittype="deMercBrigadier" relativity="Absolute">
+      <effect type="Data" amount="14.00" subtype="FreeHomeCityUnit" unittype="deMercBrigadier" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
@@ -1978,6 +1982,48 @@
         <target type="ProtoUnit">deMercBrigadier</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="altArmedBoat" type="Normal">
+    <dbid>60117</dbid>
+    <displaynameid>802025</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\british2\armedboat.png</icon>
+    <rollovertextid>802026</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="CommandAdd" proto="Musketeer" page="2" column="0">
+        <target type="ProtoUnit">altSixthRate</target>
+      </effect>
+      <effect type="CommandAdd" proto="Musketeer" page="2" column="0">
+        <target type="ProtoUnit">Frigate</target>
+      </effect>
+      <effect type="CommandAdd" proto="deRanger" page="2" column="1">
+        <target type="ProtoUnit">altSixthRate</target>
+      </effect>
+      <effect type="CommandAdd" proto="deRanger" page="2" column="1">
+        <target type="ProtoUnit">Frigate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="altSixthRate" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="altFactoryCannonEnableShadow" type="Normal">
+    <dbid>60118</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.00" tactic="Cannon" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">Factory</target>
+      </effect>
     </effects>
   </tech>
 
